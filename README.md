@@ -1,8 +1,4 @@
-# oresat-endcaps
-OreSat's +/-Z end caps, the PCBs on the very ends of the satellite.
-
-
-# "oresat-endcaps"
+# "End Cap" PCBs for OreSat
 
 These are the "end cap" PCBs that attach to the +Z and -Z ends of the satellites. It's not clear what exactly
 we're going to put on these boards besides magnetometers; there may be more in the future?
