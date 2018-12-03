@@ -3925,9 +3925,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="51.5" y="25.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="59.71" y="29.575" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="CF1" library="oresat-connectors" package="CON-1.27-F-HARTING-1522012X601XXX" value="ORESAT-SOLARPANEL-12PIN" x="11.5" y="84.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="8.325" y="92.485" size="0.635" layer="25" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="9.595" y="92.485" size="0.635" layer="27" ratio="20" rot="R90"/>
+<element name="CF1" library="oresat-connectors" package="CON-1.27-F-HARTING-1522012X601XXX" value="ORESAT-SOLARPANEL-12PIN" x="11.5" y="84.5" smashed="yes" rot="MR90">
+<attribute name="NAME" x="14.675" y="92.485" size="0.635" layer="26" ratio="20" rot="MR90"/>
+<attribute name="VALUE" x="13.405" y="92.485" size="0.635" layer="28" ratio="20" rot="MR90"/>
 </element>
 </elements>
 <signals>
