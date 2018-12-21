@@ -13339,27 +13339,18 @@ Eventually consolidate parts from other libraries here.</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,332.74,139.7,X1,SHIELD,GND,,,"/>
-<approved hash="104,1,175.26,144.78,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,276.86,157.48,U6,VDD,3.3V,,,"/>
-<approved hash="104,1,269.24,157.48,U6,VDDA,3.3V,,,"/>
-<approved hash="104,1,269.24,106.68,U6,VSS,GND,,,"/>
-<approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
-<approved hash="104,1,176.53,248.92,U1,VIN,VBUS,,,"/>
-<approved hash="104,1,201.93,248.92,U1,VOUT,3.3V,,,"/>
-<approved hash="104,1,191.77,213.36,U1,PGND,GND,,,"/>
+<approved hash="104,1,278.13,121.92,U3,VDD_IO,3.3V,,,"/>
+<approved hash="104,1,308.61,121.92,U3,VDD,3.3V,,,"/>
+<approved hash="202,1,278.13,119.38,U3,S1,,,,"/>
+<approved hash="104,1,293.37,93.98,U3,GND9,GND,,,"/>
+<approved hash="104,1,290.83,93.98,U3,GND11,GND,,,"/>
+<approved hash="104,1,276.86,175.26,U4,VDD_IO,3.3V,,,"/>
+<approved hash="104,1,307.34,175.26,U4,VDD,3.3V,,,"/>
+<approved hash="202,1,276.86,172.72,U4,S1,,,,"/>
+<approved hash="104,1,292.1,147.32,U4,GND9,GND,,,"/>
+<approved hash="104,1,289.56,147.32,U4,GND11,GND,,,"/>
+<approved hash="104,1,180.34,165.1,U1,VCC,3.3V,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,270.468,51.0261,JP4,,,,,"/>
-<approved hash="113,1,310.117,246.606,JP5,,,,,"/>
-<approved hash="113,1,326.627,228.826,JP7,,,,,"/>
-<approved hash="113,1,310.117,228.826,JP6,,,,,"/>
-<approved hash="113,1,170.773,17.7123,J5,,,,,"/>
-<approved hash="113,1,178.037,38.3261,JP8,,,,,"/>
-<approved hash="113,1,76.4371,57.3761,JP9,,,,,"/>
-<approved hash="113,1,76.1577,115.796,JP10,,,,,"/>
-<approved hash="113,1,138.667,109.446,JP1,,,,,"/>
-<approved hash="113,1,65.9977,180.566,JP11,,,,,"/>
-<approved hash="113,1,326.627,249.146,JP3,,,,,"/>
 </errors>
 </schematic>
 </drawing>

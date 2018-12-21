@@ -47,8 +47,8 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
@@ -3598,7 +3598,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="CF2" pad="4"/>
 <wire x1="7.75" y1="21.705" x2="13.25" y2="21.705" width="0.3" layer="16"/>
 <wire x1="13.25" y1="21.705" x2="15.395" y2="21.705" width="0.2" layer="16"/>
-<wire x1="19.75" y1="18.16" x2="19.8" y2="18.21" width="0.2" layer="16"/>
 <wire x1="19.75" y1="18.16" x2="19.75" y2="19.05" width="0.2" layer="16"/>
 <wire x1="18.9" y1="19.9" x2="17.2" y2="19.9" width="0.2" layer="16"/>
 <wire x1="19.75" y1="19.05" x2="18.9" y2="19.9" width="0.2" layer="16"/>
@@ -3730,6 +3729,22 @@ Please make sure your boards conform to these design rules.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,16,a95154394e5b3cf1"/>
+<approved hash="4,16,3f1362c9e4114e05"/>
+<approved hash="4,16,6380fc848f0a9e14"/>
+<approved hash="4,16,f3c280282340a6bc"/>
+<approved hash="7,40,cff2f87e787e4ff2"/>
+<approved hash="7,40,753766a3e6a3f537"/>
+<approved hash="7,40,79b77523f523f9b7"/>
+<approved hash="7,40,1cd3096789679cd3"/>
+<approved hash="7,40,4b7178ccf8cccb71"/>
+<approved hash="7,40,db12ef8f6f8f5b12"/>
+<approved hash="7,40,55d46140e140d5d4"/>
+<approved hash="7,40,7d80710df10dfd80"/>
+<approved hash="7,40,4e844209c209ce84"/>
+<approved hash="7,40,c1cecd724d7241ce"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
