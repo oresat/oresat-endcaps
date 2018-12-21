@@ -12836,12 +12836,12 @@ Eventually consolidate parts from other libraries here.</description>
 <instance part="SUPPLY5" gate="G$1" x="223.52" y="177.8" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="223.52" y="180.594" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND24" gate="1" x="91.44" y="129.54" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="93.98" y="127" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND24" gate="1" x="81.28" y="129.54" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="83.82" y="127" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="CF2" gate="G$1" x="88.9" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="95.25" y="173.99" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="95.25" y="171.45" size="1.778" layer="96" rot="MR0"/>
+<instance part="CF2" gate="G$1" x="78.74" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="85.09" y="173.99" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="85.09" y="171.45" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="TP6" gate="G$1" x="129.54" y="157.48" smashed="yes" rot="MR0">
 <attribute name="NAME" x="127" y="160.02" size="1.778" layer="95" font="vector"/>
@@ -12981,7 +12981,7 @@ Eventually consolidate parts from other libraries here.</description>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="91.44" y1="132.08" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="132.08" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="CF2" gate="G$1" pin="SHIELDS"/>
 </segment>
 <segment>
@@ -12989,14 +12989,15 @@ Eventually consolidate parts from other libraries here.</description>
 <wire x1="111.76" y1="167.64" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="CF2" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="139.7" x2="111.76" y2="135.89" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="167.64" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="167.64" x2="88.9" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="167.64" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="CF2" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="165.1" x2="91.44" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="167.64" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
-<junction x="99.06" y="167.64"/>
+<wire x1="88.9" y1="165.1" x2="81.28" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="167.64" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
+<junction x="88.9" y="167.64"/>
 <pinref part="TP3" gate="G$1" pin="1"/>
 <junction x="111.76" y="139.7"/>
+<label x="88.9" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -13137,12 +13138,12 @@ Eventually consolidate parts from other libraries here.</description>
 </segment>
 <segment>
 <pinref part="CF2" gate="G$1" pin="11"/>
-<wire x1="91.44" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="142.24" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="142.24" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="CF2" gate="G$1" pin="12"/>
-<wire x1="99.06" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
-<junction x="99.06" y="142.24"/>
+<wire x1="88.9" y1="139.7" x2="81.28" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
+<junction x="88.9" y="142.24"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <wire x1="104.14" y1="142.24" x2="104.14" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C4" gate="CE" pin="1"/>
@@ -13151,6 +13152,7 @@ Eventually consolidate parts from other libraries here.</description>
 <junction x="104.14" y="142.24"/>
 <pinref part="TP4" gate="G$1" pin="1"/>
 <junction x="104.14" y="172.72"/>
+<label x="88.9" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA0" class="0">
@@ -13197,14 +13199,15 @@ Eventually consolidate parts from other libraries here.</description>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <pinref part="CF2" gate="G$1" pin="4"/>
 <pinref part="CF2" gate="G$1" pin="3"/>
-<wire x1="91.44" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="162.56" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
-<junction x="99.06" y="162.56"/>
+<wire x1="81.28" y1="162.56" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="162.56" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<junction x="88.9" y="162.56"/>
 <wire x1="119.38" y1="162.56" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="147.32" x2="129.54" y2="147.32" width="0.1524" layer="91"/>
 <junction x="129.54" y="147.32"/>
+<label x="88.9" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!INT0" class="0">
@@ -13244,14 +13247,15 @@ Eventually consolidate parts from other libraries here.</description>
 <pinref part="TP7" gate="G$1" pin="1"/>
 <pinref part="CF2" gate="G$1" pin="6"/>
 <pinref part="CF2" gate="G$1" pin="5"/>
-<wire x1="91.44" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="157.48" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="157.48" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="157.48" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
-<junction x="99.06" y="157.48"/>
+<junction x="88.9" y="157.48"/>
 <wire x1="109.22" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
 <junction x="139.7" y="154.94"/>
+<label x="88.9" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD1" class="0">
@@ -13310,11 +13314,12 @@ Eventually consolidate parts from other libraries here.</description>
 <junction x="129.54" y="157.48"/>
 <pinref part="CF2" gate="G$1" pin="10"/>
 <pinref part="CF2" gate="G$1" pin="9"/>
-<wire x1="91.44" y1="147.32" x2="99.06" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="147.32" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="147.32" x2="99.06" y2="147.32" width="0.1524" layer="91"/>
-<junction x="99.06" y="147.32"/>
+<wire x1="81.28" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="147.32" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="144.78" x2="81.28" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
+<junction x="88.9" y="147.32"/>
+<label x="88.9" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C-SCL" class="0">
@@ -13328,11 +13333,12 @@ Eventually consolidate parts from other libraries here.</description>
 <wire x1="114.3" y1="160.02" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="CF2" gate="G$1" pin="8"/>
 <pinref part="CF2" gate="G$1" pin="7"/>
-<wire x1="91.44" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="152.4" x2="99.06" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-<junction x="99.06" y="152.4"/>
+<wire x1="81.28" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="152.4" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="149.86" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
+<junction x="88.9" y="152.4"/>
+<label x="88.9" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
