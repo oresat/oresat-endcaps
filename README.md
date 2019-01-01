@@ -5,17 +5,15 @@ we're going to put on these boards besides magnetometers; there may be more in t
 
 ## Features
 
+- Cutouts for deployable antennas
+- Double magnetometers.
 - Single vertical 10mm tall 1.27 mm connector that plugs into the "end card" card.
+    - On the End Cap:  Harwin M55-6001242R 12 pin female vertical connector 
+    - On the End Card below: Harwin M55-7011242R 12 pin male vertical connector
 - No available RF connectors.
-- Standard TPS63070-bsaed buck/boost SPS (Vin = 2.5 to 7 V, Vout = 3.3V)
-- Has our standard/favorite STM32F042K6 microcontroller.
-   - With SWD, UART (FTDI), and CAN (to the backplane).
+- Slot for debug connector to pass through.
 
 ![OreSat +Z End Cap Picture](https://github.com/oresat/oresat-endcaps/blob/master/oresat-zpos-endcap.png)
-
-## Connector information
-
-- TBD.
 
 ## LICENSE
 
