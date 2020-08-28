@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -34,7 +34,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -187,13 +187,13 @@
 </layers>
 <board>
 <plain>
-<rectangle x1="92.8" y1="17.8" x2="100.8" y2="25.8" layer="21" rot="R90"/>
-<text x="33.3" y="4.8" size="2" layer="21" font="vector" ratio="15">OreSat0 +Z End Cap v1.0</text>
+<rectangle x1="93.8" y1="13.8" x2="101.8" y2="21.8" layer="21" rot="R90"/>
+<text x="53" y="93" size="2" layer="21" font="vector" ratio="15" align="center">OreSat0 +Z End Cap v1.0</text>
 <circle x="52.8" y="52.8" radius="46.8" width="0" layer="41"/>
-<text x="53.3" y="1.9" size="3" layer="21" font="vector" ratio="15" align="center">+X</text>
-<text x="52.8" y="103.8" size="3" layer="21" font="vector" ratio="15" rot="SR180" align="center">-X</text>
-<text x="103.8" y="52.8" size="3" layer="21" font="vector" ratio="15" rot="R90" align="center">+Y</text>
-<text x="1.8" y="51.8" size="3" layer="21" font="vector" ratio="15" rot="SR270" align="center">-Y</text>
+<text x="53" y="3" size="3" layer="21" font="vector" ratio="15" align="center">+X</text>
+<text x="53" y="103" size="3" layer="21" font="vector" ratio="15" rot="SR180" align="center">-X</text>
+<text x="103" y="53" size="3" layer="21" font="vector" ratio="15" rot="R90" align="center">+Y</text>
+<text x="3" y="52" size="3" layer="21" font="vector" ratio="15" rot="SR270" align="center">-Y</text>
 <wire x1="52.8" y1="53.8" x2="52.8" y2="51.8" width="0.1" layer="51"/>
 <wire x1="51.8" y1="52.8" x2="53.8" y2="52.8" width="0.1" layer="51"/>
 <circle x="52.8" y="52.8" radius="46.8" width="0" layer="42"/>
@@ -207,14 +207,6 @@
 <wire x1="12.4" y1="86.885" x2="8.2" y2="86.885" width="0.001" layer="52"/>
 <wire x1="8.2" y1="76.515" x2="12.4" y2="76.515" width="0.001" layer="52"/>
 <wire x1="12.4" y1="76.515" x2="12.4" y2="86.885" width="0.001" layer="52"/>
-<circle x="80.3" y="102.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="102.3" y="80.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="80.3" y="3.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="102.3" y="25.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="3.3" y="25.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="25.3" y="3.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="3.3" y="80.3" radius="1.05" width="0.001" layer="20"/>
-<circle x="25.3" y="102.3" radius="1.05" width="0.001" layer="20"/>
 <wire x1="91.82803125" y1="105.1" x2="91.82803125" y2="100.99803125" width="0.001" layer="20"/>
 <wire x1="93.09803125" y1="99.72803125" x2="93.22803125" y2="99.72803125" width="0.001" layer="20"/>
 <wire x1="93.72803125" y1="99.22803125" x2="93.72803125" y2="94.99803125" width="0.001" layer="20"/>
@@ -288,7 +280,7 @@
 <wire x1="89.985459375" y1="72.272440625" x2="90.564" y2="73.874" width="0.001" layer="20" curve="50.36611"/>
 <wire x1="90.564" y1="73.874" x2="73.877" y2="90.563" width="0.001" layer="20" curve="79.267676"/>
 <wire x1="73.877" y1="90.563" x2="72.274" y2="89.986" width="0.001" layer="20" curve="50.366314"/>
-<text x="33.3" y="2.3" size="2" layer="21" font="vector" ratio="15">2020/08/24</text>
+<text x="53" y="90" size="2" layer="21" font="vector" ratio="15" align="center">2020/08/28</text>
 <wire x1="51.385790625" y1="71.927240625" x2="33.327559375" y2="89.985459375" width="0.001" layer="20"/>
 <wire x1="15.614" y1="72.275" x2="33.672759375" y2="54.214209375" width="0.001" layer="20"/>
 <wire x1="51.385790625" y1="71.927240625" x2="54.214209375" y2="71.927240625" width="0.001" layer="20" curve="89.999873"/>
@@ -434,6 +426,32 @@
 <wire x1="15.037509375" y1="73.873690625" x2="15.614534375" y2="72.272434375" width="0.001" layer="50" curve="50.366288"/>
 <wire x1="33.672759375" y1="51.385790625" x2="33.672759375" y2="54.214209375" width="0.001" layer="50" curve="89.999747"/>
 <rectangle x1="12.55" y1="98.6" x2="93.05" y2="100.2" layer="51"/>
+<text x="54" y="17" size="5" layer="21" font="vector" ratio="10" align="center">OreSat0</text>
+<text x="54" y="12" size="2" layer="21" font="vector" ratio="15" align="center">Oregon's First Satellite!</text>
+<hole x="102.3" y="25.3" drill="2.1" locked="yes"/>
+<circle x="102.3" y="25.3" radius="2" width="0" layer="41"/>
+<circle x="102.3" y="25.3" radius="2" width="0" layer="29"/>
+<hole x="80.3" y="3.3" drill="2.1" locked="yes"/>
+<circle x="80.3" y="3.3" radius="2" width="0" layer="41"/>
+<circle x="80.3" y="3.3" radius="2" width="0" layer="29"/>
+<hole x="102.3" y="80.3" drill="2.1" locked="yes"/>
+<circle x="102.3" y="80.3" radius="2" width="0" layer="41"/>
+<circle x="102.3" y="80.3" radius="2" width="0" layer="29"/>
+<hole x="25.3" y="3.3" drill="2.1" locked="yes"/>
+<circle x="25.3" y="3.3" radius="2" width="0" layer="41"/>
+<circle x="25.3" y="3.3" radius="2" width="0" layer="29"/>
+<hole x="3.3" y="25.3" drill="2.1" locked="yes"/>
+<circle x="3.3" y="25.3" radius="2" width="0" layer="41"/>
+<circle x="3.3" y="25.3" radius="2" width="0" layer="29"/>
+<hole x="3.3" y="80.3" drill="2.1" locked="yes"/>
+<circle x="3.3" y="80.3" radius="2" width="0" layer="41"/>
+<circle x="3.3" y="80.3" radius="2" width="0" layer="29"/>
+<hole x="80.3" y="102.3" drill="2.1" locked="yes"/>
+<circle x="80.3" y="102.3" radius="2" width="0" layer="41"/>
+<circle x="80.3" y="102.3" radius="2" width="0" layer="29"/>
+<hole x="25.3" y="102.3" drill="2.1" locked="yes"/>
+<circle x="25.3" y="102.3" radius="2" width="0" layer="41"/>
+<circle x="25.3" y="102.3" radius="2" width="0" layer="29"/>
 </plain>
 <libraries>
 <library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
@@ -1816,7 +1834,7 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-2layer-tented">
+<designrules name="oshpark-2layer-tented *">
 <description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
 Please make sure your boards conform to these design rules.
@@ -1881,7 +1899,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="20mil"/>
+<param name="mlViaStopLimit" value="10mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -2017,7 +2035,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="89.3" y="87" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="89.3" y="87" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="89.3" y="87" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
-<attribute name="NAME" x="90.4" y="85.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="NAME" x="91.7" y="86.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="90.1" y="85.65" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="C2" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="18.55" y="15.3" smashed="yes" rot="MR270">
@@ -2035,7 +2053,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="14.3" y="18.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="14.3" y="18.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="14.3" y="18.6" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
-<attribute name="NAME" x="14.1" y="19.25" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="NAME" x="14.8" y="19.35" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="15.1" y="17.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="C10" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="92.6" y="91.4" smashed="yes" rot="MR90">
@@ -2053,7 +2071,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="13" y="16.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="13" y="16.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="13" y="16.3" size="0.3" layer="34" ratio="15" rot="MR90" align="center"/>
-<attribute name="NAME" x="13.1" y="14.4" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="NAME" x="11.8" y="17.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="11.4" y="15.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="C13" library="oresat-rcl" package=".0603-B-NOSILK" value="10u" x="90.3" y="92.8" smashed="yes" rot="MR180">
@@ -2122,7 +2140,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="14.7" y="97.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="12.67" y="94.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" package="16-SSOP" value="LTC4305" x="20.82" y="94" smashed="yes" rot="MR90">
+<element name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" package="16-SSOP" value="LTC4305IGN" x="20.82" y="94" smashed="yes" rot="MR90">
 <attribute name="NAME" x="22.836" y="96.826" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="16.502" y="91.714" size="0.8128" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
@@ -2211,22 +2229,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="85" y="95.85" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="87" y="93.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="R11" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="6.3" y="34.8" smashed="yes" rot="MR90">
-<attribute name="DIS" value="Digi-Key" x="6.3" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.3" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.3" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.3" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="6.3" y="34.8" size="0.3" layer="34" ratio="15" rot="MR90" align="center"/>
-<attribute name="NAME" x="7.1" y="33.6" size="0.8" layer="26" font="vector" ratio="15" rot="MR90"/>
-<attribute name="VALUE" x="4.7" y="33.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
+<element name="R11" library="oresat-rcl" package=".0603-B-NOSILK" value="NP" x="7" y="34.8" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="7" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="7" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Samsung" x="7" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="7" y="34.8" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="7" y="34.8" size="0.3" layer="34" ratio="15" rot="MR90" align="center"/>
+<attribute name="NAME" x="7.8" y="33.6" size="0.8" layer="26" font="vector" ratio="15" rot="MR90"/>
+<attribute name="VALUE" x="5.4" y="33.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R12" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="90.4" y="85.35" smashed="yes" rot="MR0">
+<element name="R12" library="oresat-rcl" package=".0603-B-NOSILK" value="NP" x="90.4" y="85.35" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="90.4" y="85.35" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="90.4" y="85.35" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Samsung" x="90.4" y="85.35" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="90.4" y="85.35" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="90.4" y="85.35" size="0.3" layer="34" ratio="15" rot="MR0" align="center"/>
-<attribute name="NAME" x="91.6" y="86.15" size="0.8" layer="26" font="vector" ratio="15" rot="MR0"/>
+<attribute name="NAME" x="91.4" y="83.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="91.6" y="83.75" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 </elements>
@@ -2601,14 +2619,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="12.5" y="12.7" extent="1-16" drill="0.254"/>
 <via x="12.8" y="88.6" extent="1-16" drill="0.254"/>
 <wire x1="11.5" y1="77.9" x2="11.9" y2="77.5" width="0.4" layer="16"/>
-<wire x1="11.9" y1="77.5" x2="11.9" y2="76.1" width="0.4" layer="16"/>
-<wire x1="11.9" y1="76.1" x2="11.97" y2="76.03" width="0.4" layer="16"/>
-<wire x1="11.97" y1="76.03" x2="12.75" y2="76.03" width="0.4" layer="16"/>
 <via x="15.07" y="94.14" extent="1-16" drill="0.254"/>
 <via x="15.2" y="92" extent="1-16" drill="0.254"/>
 <via x="16.1" y="90.8" extent="1-16" drill="0.254"/>
 <via x="13.1" y="92.5" extent="1-16" drill="0.254"/>
-<via x="13.5" y="89.9" extent="1-16" drill="0.254"/>
 <via x="11.2" y="90.6" extent="1-16" drill="0.254"/>
 <via x="15" y="95.7" extent="1-16" drill="0.254"/>
 <via x="16.9" y="96.3" extent="1-16" drill="0.254"/>
@@ -2620,6 +2634,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="35.9" y="97.55" extent="1-16" drill="0.254"/>
 <via x="33.6" y="101.65" extent="1-16" drill="0.254"/>
 <via x="29.6" y="98.35" extent="1-16" drill="0.254"/>
+<wire x1="11.9" y1="77.5" x2="11.9" y2="76.2" width="1" layer="16"/>
+<wire x1="11.9" y1="76.2" x2="11.9" y2="75.9" width="0.5" layer="16"/>
+<wire x1="11.9" y1="75.9" x2="10.8" y2="74.8" width="0.5" layer="16"/>
+<wire x1="12.75" y1="76.03" x2="11.9" y2="76.88" width="0.2" layer="16"/>
+<wire x1="11.9" y1="76.88" x2="11.9" y2="77.5" width="0.2" layer="16"/>
 </signal>
 <signal name="N$262">
 </signal>
@@ -2760,10 +2779,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.2" y1="95.2" x2="30.2" y2="95.75" width="0.2" layer="16"/>
 <wire x1="27.3975" y1="93.0475" x2="29.25" y2="94.9" width="0.2" layer="16"/>
 <wire x1="29.9" y1="94.9" x2="30.2" y2="95.2" width="0.2" layer="16"/>
-<wire x1="6.3" y1="35.6" x2="6.3" y2="37.2" width="0.2" layer="16"/>
-<via x="6.3" y="37.2" extent="1-16" drill="0.254"/>
-<wire x1="6.3" y1="37.2" x2="5.1" y2="38.4" width="0.2" layer="1"/>
-<wire x1="5.1" y1="68.7" x2="5.1" y2="38.4" width="0.2" layer="1"/>
+<wire x1="7" y1="36.7" x2="7" y2="35.6" width="0.2" layer="16"/>
+<via x="7" y="36.7" extent="1-16" drill="0.254"/>
+<wire x1="7" y1="36.7" x2="5.1" y2="38.6" width="0.2" layer="1"/>
+<wire x1="5.1" y1="69" x2="5.1" y2="38.6" width="0.2" layer="1"/>
 <wire x1="18.6862375" y1="91.6024" x2="18.904025" y2="91.6024" width="0.2" layer="1"/>
 <wire x1="18.904025" y1="91.6024" x2="20.351625" y2="93.05" width="0.2" layer="1"/>
 <wire x1="17.9" y1="90.8161625" x2="18.6862375" y2="91.6024" width="0.2" layer="1"/>
@@ -2773,10 +2792,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.9" y1="88.1" x2="13" y2="83.2" width="0.2" layer="1"/>
 <wire x1="17.9" y1="88.1" x2="17.9" y2="90.8161625" width="0.2" layer="1"/>
 <wire x1="20.351625" y1="93.05" x2="21.83" y2="93.05" width="0.2" layer="1"/>
-<wire x1="11.6" y1="75.2" x2="5.1" y2="68.7" width="0.2" layer="1"/>
+<wire x1="11.7" y1="75.6" x2="5.1" y2="69" width="0.2" layer="1"/>
 <wire x1="13" y1="83.2" x2="13" y2="78.2" width="0.2" layer="1"/>
-<wire x1="13" y1="78.2" x2="11.6" y2="76.8" width="0.2" layer="1"/>
-<wire x1="11.6" y1="76.8" x2="11.6" y2="75.2" width="0.2" layer="1"/>
+<wire x1="13" y1="78.2" x2="11.7" y2="76.9" width="0.2" layer="1"/>
+<wire x1="11.7" y1="76.9" x2="11.7" y2="75.6" width="0.2" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="U1" pad="1"/>
@@ -2815,11 +2834,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="16.05" y1="17.075" x2="16.05" y2="19.1936" width="0.2" layer="16"/>
 <wire x1="16.05" y1="19.1936" x2="16.0436" y2="19.2" width="0.2" layer="16"/>
 <via x="16.0436" y="19.2" extent="1-16" drill="0.254"/>
-<wire x1="6.3" y1="32.6" x2="6.3" y2="33.1" width="0.2" layer="1"/>
-<via x="6.3" y="33.1" extent="1-16" drill="0.254"/>
+<wire x1="7" y1="31.9" x2="7" y2="32.9" width="0.2" layer="1"/>
+<via x="7" y="32.9" extent="1-16" drill="0.254"/>
 <wire x1="16.0436" y1="19.2" x2="16.0436" y2="22.8564" width="0.2" layer="1"/>
-<wire x1="16.0436" y1="22.8564" x2="6.3" y2="32.6" width="0.2" layer="1"/>
-<wire x1="6.3" y1="34" x2="6.3" y2="33.1" width="0.2" layer="16"/>
+<wire x1="16.0436" y1="22.8564" x2="7" y2="31.9" width="0.2" layer="1"/>
+<wire x1="7" y1="34" x2="7" y2="32.9" width="0.2" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="U2" pad="15"/>
@@ -2841,6 +2860,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,16,d4f18d5dd7d86276"/>
+<approved hash="4,16,4163e62502dc0236"/>
+<approved hash="4,16,eb2bd0210250307d"/>
+<approved hash="4,16,cf0e6c052bb64574"/>
+<approved hash="4,16,b6da193bae283cff"/>
+<approved hash="4,16,1e8749ec51a060c4"/>
+<approved hash="6,16,89ec4e16350334e9"/>
+<approved hash="6,16,980685df89609d78"/>
+<approved hash="6,16,de172a65edceaa35"/>
+<approved hash="6,16,9f49c63a064a8ace"/>
+<approved hash="6,16,da0151f03a4478b0"/>
+<approved hash="6,16,ff0c83085c9c59fd"/>
+<approved hash="6,16,d6521abe40667617"/>
+<approved hash="6,16,9e2cd7129e6e56e8"/>
+<approved hash="6,16,98eae7f163c474ac"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

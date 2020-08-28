@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -7861,6 +7861,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
 <part name="J1" library="J-TE-6-104178-1-1.27mm-male-th" deviceset="6-104178-1" device=""/>
+<part name="TP9" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP10" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP11" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP12" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP13" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP14" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP15" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP16" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP17" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP18" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP19" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8155,6 +8166,39 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="NAME" x="82.55" y="171.45" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="82.55" y="168.91" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="TP9" gate="G$1" x="96.52" y="165.1" smashed="yes">
+<attribute name="NAME" x="99.06" y="165.1" size="1.27" layer="104"/>
+</instance>
+<instance part="TP10" gate="G$1" x="96.52" y="160.02" smashed="yes">
+<attribute name="NAME" x="99.06" y="160.02" size="1.27" layer="104"/>
+</instance>
+<instance part="TP11" gate="G$1" x="96.52" y="157.48" smashed="yes">
+<attribute name="NAME" x="99.06" y="157.48" size="1.27" layer="104"/>
+</instance>
+<instance part="TP12" gate="G$1" x="96.52" y="149.86" smashed="yes">
+<attribute name="NAME" x="99.06" y="149.86" size="1.27" layer="104"/>
+</instance>
+<instance part="TP13" gate="G$1" x="96.52" y="147.32" smashed="yes">
+<attribute name="NAME" x="99.06" y="147.32" size="1.27" layer="104"/>
+</instance>
+<instance part="TP14" gate="G$1" x="96.52" y="144.78" smashed="yes">
+<attribute name="NAME" x="99.06" y="144.78" size="1.27" layer="104"/>
+</instance>
+<instance part="TP15" gate="G$1" x="96.52" y="142.24" smashed="yes">
+<attribute name="NAME" x="99.06" y="142.24" size="1.27" layer="104"/>
+</instance>
+<instance part="TP16" gate="G$1" x="96.52" y="139.7" smashed="yes">
+<attribute name="NAME" x="99.06" y="139.7" size="1.27" layer="104"/>
+</instance>
+<instance part="TP17" gate="G$1" x="96.52" y="137.16" smashed="yes">
+<attribute name="NAME" x="99.06" y="137.16" size="1.27" layer="104"/>
+</instance>
+<instance part="TP18" gate="G$1" x="96.52" y="134.62" smashed="yes">
+<attribute name="NAME" x="99.06" y="134.62" size="1.27" layer="104"/>
+</instance>
+<instance part="TP19" gate="G$1" x="96.52" y="132.08" smashed="yes">
+<attribute name="NAME" x="99.06" y="132.08" size="1.27" layer="104"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8200,13 +8244,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <wire x1="119.38" y1="154.94" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="78.74" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <junction x="119.38" y="154.94"/>
 <pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="88.9" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="152.4" x2="88.9" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="152.4" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
-<junction x="88.9" y="154.94"/>
+<wire x1="83.82" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="152.4" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
+<junction x="83.82" y="154.94"/>
 <label x="83.82" y="162.56" size="1.778" layer="95"/>
 <label x="83.82" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -8567,78 +8611,89 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <net name="!SD" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
-<label x="88.9" y="165.1" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="165.1" size="1.27" layer="95"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="165.1" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_L" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="78.74" y1="160.02" x2="88.9" y2="160.02" width="0.1524" layer="91"/>
-<label x="88.9" y="160.02" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="160.02" size="1.27" layer="95"/>
+<pinref part="TP10" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="160.02" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="78.74" y1="157.48" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
-<label x="88.9" y="157.48" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="157.48" size="1.27" layer="95"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="78.74" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
-<label x="88.9" y="149.86" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="149.86" size="1.27" layer="95"/>
+<pinref part="TP12" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="78.74" y1="147.32" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
-<label x="88.9" y="147.32" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="147.32" size="1.27" layer="95"/>
+<pinref part="TP13" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="78.74" y1="144.78" x2="88.9" y2="144.78" width="0.1524" layer="91"/>
-<label x="88.9" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="144.78" size="1.27" layer="95"/>
+<pinref part="TP14" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_PWR" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="78.74" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
-<label x="88.9" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="142.24" size="1.27" layer="95"/>
+<pinref part="TP15" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="142.24" x2="78.74" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_SCL" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="11"/>
-<wire x1="78.74" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
-<label x="88.9" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="139.7" size="1.27" layer="95"/>
+<pinref part="TP16" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="12"/>
-<wire x1="78.74" y1="137.16" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
-<label x="88.9" y="137.16" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="137.16" size="1.27" layer="95"/>
+<pinref part="TP17" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPARE1-TURNSTYLE-DPLY" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="13"/>
-<wire x1="78.74" y1="134.62" x2="88.9" y2="134.62" width="0.1524" layer="91"/>
-<label x="88.9" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="134.62" size="1.27" layer="95"/>
+<pinref part="TP18" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPARE2" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="14"/>
-<wire x1="78.74" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="91"/>
-<label x="88.9" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="83.82" y="132.08" size="1.27" layer="95"/>
+<pinref part="TP19" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="132.08" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

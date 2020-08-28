@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -7814,7 +7814,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" deviceset="LTC4305" device=""/>
+<part name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" deviceset="LTC4305" device="" value="LTC4305IGN"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -7860,13 +7860,13 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="TP2" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP4" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP5" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
+<part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R12" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
+<part name="R12" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -7877,7 +7877,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <sheet>
 <plain>
 <text x="341.63" y="26.67" size="3.81" layer="94">OreSat0 +Z End Cap</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">2.0</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">1.0</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
 <text x="271.78" y="73.66" size="1.778" layer="97">-X+Y Corner</text>
