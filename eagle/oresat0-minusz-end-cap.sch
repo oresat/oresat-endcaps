@@ -7704,13 +7704,18 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
+<part name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="511-1584-1-ND"/>
+<attribute name="MFR" value="Rohm"/>
+<attribute name="MPN" value="SML-E12M8WT86"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R2" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A129693CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -7719,39 +7724,39 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="C7" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="C10" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="C12" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="490-14461-1-ND"/>
+<attribute name="MFR" value="Murata"/>
+<attribute name="MPN" value="GRM188D71A106KA73D"/>
 </part>
 <part name="C13" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="490-14461-1-ND"/>
+<attribute name="MFR" value="Murata"/>
+<attribute name="MPN" value="GRM188D71A106KA73D"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -7761,15 +7766,15 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="R5" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="TP6" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -7779,88 +7784,98 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="DPN" value="490-14461-1-ND"/>
+<attribute name="MFR" value="Murata"/>
+<attribute name="MPN" value="GRM188D71A106KA73D"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="TP3" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP4" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="U2" library="U-Memsic-MMC5883-3-Axis-Magnetometer" deviceset="MMC5883MA" device=""/>
-<part name="U3" library="U-Memsic-MMC5883-3-Axis-Magnetometer" deviceset="MMC5883MA" device=""/>
-<part name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" deviceset="LTC4305" device=""/>
+<part name="U2" library="U-Memsic-MMC5883-3-Axis-Magnetometer" deviceset="MMC5883MA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1267-1072-1-ND"/>
+<attribute name="MFR" value="Memsic"/>
+<attribute name="MPN" value="MMC5883MA"/>
+</part>
+<part name="U3" library="U-Memsic-MMC5883-3-Axis-Magnetometer" deviceset="MMC5883MA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1267-1072-1-ND"/>
+<attribute name="MFR" value="Memsic"/>
+<attribute name="MPN" value="MMC5883MA"/>
+</part>
+<part name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" deviceset="LTC4305" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="LTC4305IGN#PBF-ND"/>
+<attribute name="MFR" value="Analog"/>
+<attribute name="MPN" value="LTC4305IGN#PBF"/>
+</part>
 <part name="TP1" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="4.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="A12969CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F4K7"/>
 </part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="TP2" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP5" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP7" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP8" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
-<part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP">
+<part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
+<part name="R12" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
+<part name="J1" library="J-TE-6-104178-1-1.27mm-male-th" deviceset="6-104178-1" device="">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DPN" value="952-3875-1-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="6-104178-1"/>
 </part>
-<part name="R12" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="J1" library="J-TE-6-104178-1-1.27mm-male-th" deviceset="6-104178-1" device=""/>
 <part name="TP9" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP10" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP11" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -7893,6 +7908,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <instance part="D2" gate="G$1" x="139.7" y="88.9" smashed="yes">
 <attribute name="NAME" x="136.271" y="84.328" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="141.605" y="84.328" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="DIS" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND8" gate="1" x="139.7" y="78.74" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="142.24" y="76.2" size="1.778" layer="96" rot="MR0"/>
@@ -8073,14 +8092,26 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <instance part="U2" gate="G$1" x="292.1" y="91.44" smashed="yes">
 <attribute name="NAME" x="273.05" y="74.93" size="1.778" layer="95"/>
 <attribute name="VALUE" x="273.05" y="72.39" size="1.778" layer="96"/>
+<attribute name="MPN" x="292.1" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="292.1" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="292.1" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="292.1" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="G$1" x="292.1" y="157.48" smashed="yes">
 <attribute name="NAME" x="272.034" y="141.224" size="1.778" layer="95"/>
 <attribute name="VALUE" x="271.78" y="138.43" size="1.778" layer="96"/>
+<attribute name="MPN" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="292.1" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U1" gate="G$1" x="180.34" y="149.86" smashed="yes">
 <attribute name="NAME" x="167.64" y="170.18" size="1.778" layer="95" ratio="12"/>
 <attribute name="VALUE" x="167.64" y="167.64" size="1.778" layer="96" ratio="12"/>
+<attribute name="DIS" x="180.34" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="180.34" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="180.34" y="149.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="180.34" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP1" gate="G$1" x="137.16" y="154.94" smashed="yes">
 <attribute name="NAME" x="134.62" y="157.48" size="1.778" layer="104"/>
@@ -8147,24 +8178,20 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="NAME" x="237.49" y="87.63" size="1.778" layer="104"/>
 </instance>
 <instance part="R11" gate="R" x="251.46" y="152.4" smashed="yes" rot="R180">
-<attribute name="DIS" x="251.46" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="DPN" x="251.46" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MFR" x="251.46" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MPN" x="251.46" y="152.4" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="255.27" y="150.9014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="250.19" y="151.13" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R12" gate="R" x="250.19" y="86.36" smashed="yes" rot="R180">
-<attribute name="DIS" x="250.19" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="DPN" x="250.19" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MFR" x="250.19" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MPN" x="250.19" y="86.36" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="NAME" x="254" y="84.8614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="248.92" y="85.09" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J1" gate="G$1" x="76.2" y="142.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="82.55" y="171.45" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="82.55" y="168.91" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="76.2" y="142.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="76.2" y="142.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="76.2" y="142.24" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="76.2" y="142.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="TP9" gate="G$1" x="96.52" y="165.1" smashed="yes">
 <attribute name="NAME" x="99.06" y="165.1" size="1.27" layer="104"/>

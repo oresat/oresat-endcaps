@@ -1959,87 +1959,91 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="29.2" y="89.7" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="29.2" y="89.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="511-1584-1-ND" x="29.2" y="89.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Rohm" x="29.2" y="89.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="SML-E12M8WT86" x="29.2" y="89.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="29.1" y="87.335" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00821" x="29.2" y="89.7" size="2" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="29.835" y="89.7" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
 </element>
 <element name="R2" library="oresat-rcl" package=".0603-B-NOSILK" value="2.7k" x="32.1" y="91.4" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="32.1" y="91.4" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.6" y="92.75" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="32.1" y="91.4" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="33.45" y="90.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C1" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="86.8" y="89.3" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="86.8" y="89.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="86.8" y="89.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="86.8" y="89.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="Samsung" x="86.8" y="89.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="86.8" y="89.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="86.8" y="89.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="86.8" y="89.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="85.2" y="89" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="85.45" y="90.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C2" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="16.4" y="13.05" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="16.4" y="13.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="16.4" y="13.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="16.4" y="13.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="16.4" y="13.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="16.4" y="13.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="16.4" y="13.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="16.4" y="13.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="15.4" y="11.8" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="17.2" y="14.4" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C7" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="12.9" y="17.3" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="12.9" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="12.9" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="12.9" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MFR" value="Samsung" x="12.9" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="12.9" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="12.9" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.9" y="17.3" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="11.3" y="17.8" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="14.25" y="16.5" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C10" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="91.3" y="92.6" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="91.3" y="92.6" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="91.3" y="92.6" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="91.3" y="92.6" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samsung" x="91.3" y="92.6" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="91.3" y="92.6" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="91.3" y="92.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="91.3" y="92.6" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="89.8" y="93.2" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="90.5" y="91.25" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C12" library="oresat-rcl" package=".0603-B-NOSILK" value="10u" x="15.2" y="18.6" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="490-14461-1-ND" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Murata" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM188D71A106KA73D" x="15.2" y="18.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="15.2" y="18.6" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="14.5" y="19.5" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="16.4" y="20.2" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C13" library="oresat-rcl" package=".0603-B-NOSILK" value="10u" x="92.8" y="90.3" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="490-14461-1-ND" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Murata" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188D71A106KA73D" x="92.8" y="90.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="92.8" y="90.3" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="92.5" y="88.3" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="94.4" y="89.1" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R4" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="35.1" y="91.4" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="35.1" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="35.1" y="91.4" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="34.6" y="92.75" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="36.45" y="90.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R5" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="33.6" y="91.4" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="33.6" y="91.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.6" y="91.4" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="33.1" y="92.75" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="34.95" y="90.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -2049,36 +2053,36 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R6" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="12.55" y="75" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="12.55" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12" y="73" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="12.55" y="75" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="11.2" y="75.8" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R7" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="11.05" y="75" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="11.05" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.5" y="73" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="11.05" y="75" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="9.7" y="75.8" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C3" library="oresat-rcl" package=".0603-B-NOSILK" value="100n" x="8.6" y="85.2" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="8.6" y="85.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="8.6" y="85.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="8.6" y="85.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="8.6" y="85.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="8.6" y="85.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="8.6" y="85.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.6" y="85.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="6.2" y="83.95" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="9.4" y="86.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0603-B-NOSILK" value="10u" x="8.6" y="86.7" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="490-14461-1-ND" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Murata" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM188D71A106KA73D" x="8.6" y="86.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="8.6" y="86.7" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="8.3" y="87.4" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="9.8" y="88.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -2090,14 +2094,26 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="18" y="90.7" size="0.7" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="U2" library="U-Memsic-MMC5883-3-Axis-Magnetometer" package="LGA-16(3X3)" value="MMC5883MA" x="89.8" y="89.8" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="89.8" y="89.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1267-1072-1-ND" x="89.8" y="89.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Memsic" x="89.8" y="89.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="MMC5883MA" x="89.8" y="89.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="89.2" y="87.3" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="88" y="88.2" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="U3" library="U-Memsic-MMC5883-3-Axis-Magnetometer" package="LGA-16(3X3)" value="MMC5883MA" x="15.8" y="15.8" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="15.8" y="15.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1267-1072-1-ND" x="15.8" y="15.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Memsic" x="15.8" y="15.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="MMC5883MA" x="15.8" y="15.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="17.8" y="15.8" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="17.4" y="14" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="U1" library="U-Linear-LTC4305-2-Channel-Bus-Multiplexer" package="16-SSOP" value="LTC4305" x="11.8" y="80.4" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="11.8" y="80.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="LTC4305IGN#PBF-ND" x="11.8" y="80.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Analog" x="11.8" y="80.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="LTC4305IGN#PBF" x="11.8" y="80.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="14.086" y="76.844" size="0.7" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="14.086" y="84.718" size="0.8128" layer="27" font="vector" ratio="12" rot="R180"/>
 </element>
@@ -2107,45 +2123,45 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R1" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="14.05" y="75" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="14.05" y="75" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="14.05" y="75" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="13.5" y="73" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="12.7" y="75.8" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R3" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="14.65" y="85.8" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="14.65" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="14.65" y="85.8" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="15.3" y="86.6" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="16" y="85" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R8" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="10.85" y="85.8" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="10.85" y="85.8" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
 <attribute name="NAME" x="10.85" y="85.8" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="9.7" y="87.4" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="12.2" y="85" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R9" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="13.15" y="85.8" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="13.15" y="85.8" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
 <attribute name="NAME" x="13.15" y="85.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="11.5" y="85" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="11.8" y="86.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R10" library="oresat-rcl" package=".0603-B-NOSILK" value="4.7k" x="9.55" y="75" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="A12969CT-ND" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F4K7" x="9.55" y="75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.55" y="75" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="8.5" y="72.95" size="0.7" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="11.15" y="73.8" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -2167,24 +2183,20 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="21.425" y="79.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="R11" library="oresat-rcl" package=".0603-B-NOSILK" value="NP" x="14.05" y="22.1" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="14.05" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="14.05" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="14.05" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="14.05" y="22.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="14.05" y="22.1" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="13.25" y="20.9" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="15.65" y="20.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R12" library="oresat-rcl" package=".0603-B-NOSILK" value="NP" x="17.05" y="85.8" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="17.05" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="17.05" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="17.05" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="17.05" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.05" y="85.8" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="17.85" y="87" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="15.45" y="87" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="J1" library="J-TE-6-104178-1-1.27mm-male-th" package="6-104178-1" value="6-104178-1" x="29.55" y="96.9" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="29.55" y="96.9" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="952-3875-1-ND" x="29.55" y="96.9" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="29.55" y="96.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="6-104178-1" x="29.55" y="96.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="16.61" y="94.76" size="0.635" layer="51" font="vector" ratio="20"/>
 </element>
 <element name="TP9" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="17.5" y="99.5" smashed="yes" rot="R90">
