@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -7892,7 +7892,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <sheet>
 <plain>
 <text x="341.63" y="26.67" size="3.81" layer="94">OreSat0 +Z End Cap</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">1.0</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">1.1</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
 <text x="271.78" y="73.66" size="1.778" layer="97">-X+Y Corner</text>
