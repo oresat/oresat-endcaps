@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -7693,6 +7693,135 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </deviceset>
 </devicesets>
 </library>
+<library name="ANT-Ethertonics-2.4-CPA">
+<packages>
+<package name="XDCR_ANT-2.4-CPA">
+<wire x1="8" y1="-10" x2="-8" y2="-10" width="0.127" layer="51"/>
+<wire x1="-8" y1="-10" x2="-10" y2="-8" width="0.127" layer="51"/>
+<wire x1="-10" y1="-8" x2="-10" y2="8" width="0.127" layer="51"/>
+<wire x1="-10" y1="8" x2="-8" y2="10" width="0.127" layer="51" curve="-90"/>
+<wire x1="-8" y1="10" x2="8" y2="10" width="0.127" layer="51"/>
+<wire x1="8" y1="10" x2="10" y2="8" width="0.127" layer="51" curve="-90"/>
+<wire x1="10" y1="8" x2="10" y2="-8" width="0.127" layer="51"/>
+<wire x1="10" y1="-8" x2="8" y2="-10" width="0.127" layer="51" curve="-90"/>
+<wire x1="8" y1="-10" x2="-8" y2="-10" width="0.127" layer="51"/>
+<wire x1="-8" y1="-10" x2="-10" y2="-8" width="0.127" layer="51"/>
+<wire x1="-10" y1="-8" x2="-10" y2="8" width="0.127" layer="51"/>
+<wire x1="-10" y1="8" x2="-8" y2="10" width="0.127" layer="51" curve="-90"/>
+<wire x1="-8" y1="10" x2="8" y2="10" width="0.127" layer="51"/>
+<wire x1="8" y1="10" x2="10" y2="8" width="0.127" layer="51" curve="-90"/>
+<wire x1="10" y1="8" x2="10" y2="-8" width="0.127" layer="51"/>
+<wire x1="10" y1="-8" x2="8" y2="-10" width="0.127" layer="51" curve="-90"/>
+<wire x1="8.25" y1="-10.25" x2="-8.25" y2="-10.25" width="0.05" layer="39"/>
+<wire x1="-8.25" y1="-10.25" x2="-10.25" y2="-8.25" width="0.05" layer="39"/>
+<wire x1="-10.25" y1="-8.25" x2="-10.25" y2="8.25" width="0.05" layer="39"/>
+<wire x1="-10.25" y1="8.25" x2="-8.25" y2="10.25" width="0.05" layer="39" curve="-90"/>
+<wire x1="-8.25" y1="10.25" x2="8.25" y2="10.25" width="0.05" layer="39"/>
+<wire x1="8.25" y1="10.25" x2="10.25" y2="8.25" width="0.05" layer="39" curve="-90"/>
+<wire x1="10.25" y1="8.25" x2="10.25" y2="-8.25" width="0.05" layer="39"/>
+<wire x1="10.25" y1="-8.25" x2="8.25" y2="-10.25" width="0.05" layer="39" curve="-90"/>
+<text x="-10" y="10.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10" y="-10.5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<pad name="1" x="0" y="1.6" drill="1.05"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ANT-2.4-CPA">
+<wire x1="2.413" y1="8.001" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.667" y2="8.001" width="0.254" layer="94"/>
+<wire x1="0" y1="8.001" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<text x="2.80041875" y="5.849590625" size="1.27291875" layer="95">&gt;NAME</text>
+<text x="2.6732" y="3.81295" size="1.27295" layer="96">&gt;VALUE</text>
+<pin name="FEED" x="0" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ANT-2.4-CPA" prefix="E">
+<description>RF ANT 2.4GHZ PATCH ISM 20X20  </description>
+<gates>
+<gate name="G$1" symbol="ANT-2.4-CPA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XDCR_ANT-2.4-CPA">
+<connects>
+<connect gate="G$1" pin="FEED" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 2400 MHz Radiating Patch Ceramic Patch Antenna "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="343-ANT-2.4-CPA-ND"/>
+<attribute name="MF" value="Linx Technologies"/>
+<attribute name="MP" value="ANT-2.4-CPA"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ANT-2.4-CPA/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="J-HRS-U.FL-R-SMT-1(10)-M-RF">
+<packages>
+<package name="U.FL-R-SMT">
+<smd name="1" x="0" y="1.525" dx="1" dy="1.05" layer="1" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="2" x="-1.475" y="0" dx="2.2" dy="1.05" layer="1" rot="R270" stop="no" cream="no"/>
+<smd name="3" x="1.475" y="0" dx="2.2" dy="1.05" layer="1" rot="R270" stop="no" cream="no"/>
+<rectangle x1="-0.57" y1="0.93" x2="0.57" y2="2.12" layer="29"/>
+<rectangle x1="-2.07" y1="-1.17" x2="-0.88" y2="1.17" layer="29"/>
+<rectangle x1="0.87" y1="-1.17" x2="2.07" y2="1.17" layer="29"/>
+<text x="-2" y="-2" size="0.655" layer="25" font="vector" ratio="20" rot="R270">&gt;NAME</text>
+<text x="-1" y="-2" size="0.655" layer="27" font="vector" ratio="20" rot="R270">&gt;VALUE</text>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-1.492" width="0.127" layer="39"/>
+<wire x1="-2.5" y1="-1.492" x2="2.5" y2="-1.492" width="0.127" layer="39"/>
+<wire x1="2.5" y1="-1.492" x2="2.5" y2="2.5" width="0.127" layer="39"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="39"/>
+<rectangle x1="-2" y1="-1.1" x2="-0.95" y2="1.1" layer="31"/>
+<rectangle x1="0.95" y1="-1.1" x2="2" y2="1.1" layer="31"/>
+<rectangle x1="-0.5" y1="1" x2="0.5" y2="2.05" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="U.FL-R-SMT">
+<pin name="P$1" x="0" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="P$2" x="-5.08" y="-5.08" visible="off" length="middle" rot="R90"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="4.318" width="0.381" layer="94"/>
+<wire x1="-5.08" y1="4.318" x2="-0.762" y2="0" width="0.381" layer="94" curve="90"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="4.318" width="0.381" layer="94"/>
+<wire x1="5.08" y1="4.318" x2="0.762" y2="0" width="0.381" layer="94" curve="-90"/>
+<wire x1="-0.508" y1="5.08" x2="-0.508" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0.508" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0.508" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="0.508" y1="0.508" x2="0.508" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.1524" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="U.FL-R-SMA">
+<description>Male SMA U.FL Connector:
+
+
+https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6oBoOdtqlGQpQrQ%3D%3D</description>
+<gates>
+<gate name="G$1" symbol="U.FL-R-SMT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="U.FL-R-SMT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2 3" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7887,16 +8016,25 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="TP17" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP18" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP19" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="E1" library="ANT-Ethertonics-2.4-CPA" deviceset="ANT-2.4-CPA" device=""/>
+<part name="U$1" library="J-HRS-U.FL-R-SMT-1(10)-M-RF" deviceset="U.FL-R-SMA" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="341.63" y="26.67" size="3.81" layer="94">OreSat0 -Z End Cap</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">2.0</text>
-<text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
-<text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
+<text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0603 +/- 1% unless marked</text>
+<text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0603 ceramic 10% X5R Vw&gt;=16V unless marked</text>
 <text x="273.05" y="69.85" size="1.778" layer="97">-X+Y Corner</text>
 <text x="271.78" y="135.89" size="1.778" layer="97">+X-Y Corner</text>
+<text x="203.2" y="232.41" size="1.778" layer="97">Linx Technologies ANT-2.4-CPA 
+S band patch antenna.</text>
+<wire x1="157.48" y1="252.73" x2="157.48" y2="213.36" width="0.1524" layer="97"/>
+<wire x1="157.48" y1="213.36" x2="247.65" y2="213.36" width="0.1524" layer="97"/>
+<wire x1="247.65" y1="213.36" x2="247.65" y2="252.73" width="0.1524" layer="97"/>
+<wire x1="247.65" y1="252.73" x2="157.48" y2="252.73" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8226,6 +8364,17 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <instance part="TP19" gate="G$1" x="96.52" y="132.08" smashed="yes">
 <attribute name="NAME" x="99.06" y="132.08" size="1.27" layer="104"/>
 </instance>
+<instance part="E1" gate="G$1" x="186.69" y="240.03" smashed="yes">
+<attribute name="NAME" x="189.49041875" y="245.879590625" size="1.27291875" layer="95"/>
+<attribute name="VALUE" x="189.3632" y="243.84295" size="1.27295" layer="96"/>
+</instance>
+<instance part="U$1" gate="G$1" x="173.99" y="232.41" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.83" y="227.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="167.64" y="227.33" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND15" gate="1" x="180.34" y="222.25" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="182.88" y="219.71" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8331,6 +8480,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <pinref part="R10" gate="R" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="198.12" y1="129.54" x2="198.12" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="179.07" y1="227.33" x2="180.34" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="180.34" y1="227.33" x2="180.34" y2="224.79" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -8723,6 +8878,14 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <wire x1="96.52" y1="132.08" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="E1" gate="G$1" pin="FEED"/>
+<wire x1="186.69" y1="234.95" x2="186.69" y2="232.41" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="179.07" y1="232.41" x2="186.69" y2="232.41" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -8739,6 +8902,10 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
