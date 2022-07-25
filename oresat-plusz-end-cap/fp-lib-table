@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "plusz-end-cap")(type "KiCad")(uri "")(options "")(descr ""))
+)
