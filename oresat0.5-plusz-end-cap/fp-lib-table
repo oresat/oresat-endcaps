@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "oresat-footprints")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints")(options "")(descr "oresat-footprints"))
+  (lib (name "oresat0.5-plusz-end-cap")(type "KiCad")(uri "${KIPRJMOD}/oresat0.5-plusz-end-cap.pretty")(options "")(descr ""))
+  (lib (name "oresat-misc")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-misc.pretty")(options "")(descr ""))
 )
