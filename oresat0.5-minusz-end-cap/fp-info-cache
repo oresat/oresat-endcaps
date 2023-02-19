@@ -1,4 +1,4 @@
-20492341474416469
+20494018419789953
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86018,6 +86018,13 @@ Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance
 oresat-misc
 H-MCMASTER-94100A150
 <b>McMaster Carr 94100A150</b> -- PEMSERT M2 threaded insert for >= 1.53 mm PCBs. <b>Note the bottom side is the larger nut diameter</b>, and top side is the clear. Be sure to get the sides right when placing this component, so tha tthe screw is pulling the insert into the board.
+
+0
+0
+0
+oresat-misc
+Hole-2.4mm-NPTH
+
 
 0
 0
