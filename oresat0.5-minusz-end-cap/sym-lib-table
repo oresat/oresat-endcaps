@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "minusz-end-cap-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/minusz-end-cap-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat0.5-minusz-end-cap-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat0.5-minusz-end-cap-eagle-import.kicad_sym")(options "")(descr ""))
 )
