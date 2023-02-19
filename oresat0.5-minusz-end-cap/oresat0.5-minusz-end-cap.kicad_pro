@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|104095000|71020000|4404ac2d-5af3-4d55-a784-897122ac1f46|d8c01b96-aa50-410e-ba1f-a79e96b05ea3",
+        "silk_over_copper|104095000|71020000|cecdd159-5718-413c-b3ac-961b41f5b3d8|d8c01b96-aa50-410e-ba1f-a79e96b05ea3",
+        "silk_over_copper|104095000|81180000|cecdd159-5718-413c-b3ac-961b41f5b3d8|7f82dbec-013c-4457-a05d-85d5b1eb5acb",
+        "silk_over_copper|104095000|81180000|e0595d11-ec90-4040-9711-d9da18f37c60|7f82dbec-013c-4457-a05d-85d5b1eb5acb",
+        "silk_over_copper|106000000|71020000|0be6c69e-3d49-4daa-a16c-ab64e67d6235|77a3d75e-7a27-44be-bf38-c43dd0a046b2",
+        "silk_over_copper|106000000|71020000|4404ac2d-5af3-4d55-a784-897122ac1f46|77a3d75e-7a27-44be-bf38-c43dd0a046b2",
+        "silk_over_copper|106000000|81180000|5d941a28-ffbe-4ff2-a4ba-27fdf3825190|5e7f73cd-6796-44a9-a2be-cff6e04ce812",
+        "silk_over_copper|106000000|81180000|e0595d11-ec90-4040-9711-d9da18f37c60|5e7f73cd-6796-44a9-a2be-cff6e04ce812",
+        "silk_over_copper|114437200|61367950|5761f9e9-0da6-4079-8aaf-848aaa999b8b|c5696b3c-8fc7-4456-b588-5cdc7d6ec01a",
+        "silk_over_copper|114437200|66232050|6bce963b-0218-4bd2-8963-f3ae3fe4d690|6f6a581f-0d57-47c4-a8eb-49e8f6f7e78e",
+        "silk_over_copper|118602800|61367950|3071773b-90d3-4ee7-b9d1-d473976d2d9e|3041fa90-6993-42cc-9c66-8e8ef363dcaa",
+        "silk_over_copper|118602800|66232050|ced7bf66-8001-4aa6-8ecd-37a94badc7bb|90d8d4b2-7f93-4948-a98f-9f81cfb6e7b8"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -140,7 +153,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|3429000|1066800|34fa8529-55ad-47a0-b50b-0c038f2bbaba|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|3429000|1689100|04556910-614a-4d41-b1ba-fa321f447fa5|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -386,7 +402,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-layout-title-block.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -419,7 +435,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
