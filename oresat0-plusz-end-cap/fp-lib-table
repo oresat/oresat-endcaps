@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "oresat-footprints")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints")(options "")(descr "oresat-footprints"))
-)
