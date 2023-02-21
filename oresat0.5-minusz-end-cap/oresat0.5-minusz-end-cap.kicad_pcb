@@ -2174,6 +2174,7 @@
       (net 25 "/MAG-SDA") (pinfunction "1") (pintype "passive") (solder_mask_margin 0.0635) (tstamp 74b8c90d-e909-4391-8194-5456d7a2da72))
   )
 
+  (gr_rect (start 108.5 99) (end 118.5 89) (layer "B.SilkS") (width 0.12) (fill solid) (tstamp abdbca7d-7793-4865-ae97-db74b880fc7d))
   (gr_rect (start 195.8 145.8) (end 201.3 64.2) (layer "F.Mask") (width 0.2) (fill solid) (tstamp 0422c32f-a338-4790-953e-a7017c5a324d))
   (gr_rect (start 107.7 152.3) (end 189.3 157.7) (layer "F.Mask") (width 0.2) (fill solid) (tstamp b6a2e333-3e54-4afb-b046-d4ad2a0462ba))
   (gr_rect (start 107.7 52.3) (end 189.3 57.7) (layer "F.Mask") (width 0.2) (fill solid) (tstamp dccef0a6-0910-4e54-8e6e-38faa54db33d))
