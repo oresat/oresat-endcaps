@@ -11,13 +11,18 @@ These are the "end cap" PCBs that attach to the +Z and -Z ends of the satellites
     - On the End Card below: Harwin M55-7011242R 12 pin male vertical connector
 - No available RF connectors.
 
-![OreSat +Z End Cap Picture](https://github.com/oresat/oresat-endcaps/blob/master/oresat-zpos-endcap.png)
+![OreSat +Z End Cap Picture](https://github.com/oresat/oresat-endcaps/raw/master/oresat0-minusz-end-cap/oresat0-minusz-end-cap-bot.png)
 
 ## LICENSE
 
-Copyright Portland State Aerospace Society 2018.
+Copyright the Portland State Aerospace Society, 2022.
 
-This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
 
-You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
 
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: <https://github.com/oresat/>
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
