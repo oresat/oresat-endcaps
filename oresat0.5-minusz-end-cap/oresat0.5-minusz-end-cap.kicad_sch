@@ -771,6 +771,40 @@
           (number "9" (effects (font (size 0 0))))
         )
       )
+      (symbol "MMC5883MA_1_1"
+        (pin no_connect line (at 12.7 -11.43 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -12.7 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -3.81 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -6.35 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -7.62 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -8.89 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -10.16 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
     )
     (symbol "oresat0.5-minusz-end-cap-eagle-import:R-US_0603-B-NOSILK" (in_bom yes) (on_board yes)
       (property "Reference" "R" (at -3.81 1.4986 0)
@@ -1806,7 +1840,7 @@
     (property "Value" "MMC5883MA" (at 292.1 93.98 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "oresat0.5-minusz-end-cap:LGA-16(3X3)" (at 304.8 114.3 0)
+    (property "Footprint" "oresat0-plusz-end-cap:LGA-16(3X3)" (at 304.8 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 304.8 114.3 0)
@@ -1823,6 +1857,14 @@
     (pin "16" (uuid 83585de8-f93b-4f44-932b-b059668c8af7))
     (pin "2" (uuid b4b46f02-ed5d-4a0f-b53b-785c9efa5474))
     (pin "9" (uuid d4e03554-60d3-4361-b369-51687640f94c))
+    (pin "12" (uuid a466c17f-a799-4d23-83a9-552639277312))
+    (pin "14" (uuid c1aad736-963c-4a00-9720-fd3a20018017))
+    (pin "3" (uuid 4dffdcdf-e680-44c2-a876-0421a9e7e204))
+    (pin "4" (uuid 0cdd622f-bf0d-4ba3-9606-018fe04b23fa))
+    (pin "5" (uuid dc8ac039-6cee-4ef1-bc26-a0cc937430b7))
+    (pin "6" (uuid be015e64-7fbd-497f-9775-bbf723d8e41b))
+    (pin "7" (uuid cd807e58-ddab-4b23-b414-750483dba9b6))
+    (pin "8" (uuid b38bf1e4-c240-4367-90f0-65bffa7e3d68))
     (instances
       (project "oresat0.5-minusz-end-cap"
         (path "/428a3328-fdcb-4ef4-b2e8-e380cc78dc33"
@@ -3223,7 +3265,7 @@
     (property "Value" "MMC5883MA" (at 292.1 156.21 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Footprint" "oresat0.5-minusz-end-cap:LGA-16(3X3)" (at 304.8 176.53 0)
+    (property "Footprint" "oresat0-plusz-end-cap:LGA-16(3X3)" (at 304.8 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 304.8 176.53 0)
@@ -3240,6 +3282,14 @@
     (pin "16" (uuid 5daa4ec1-25eb-499c-9958-ed0c8089547b))
     (pin "2" (uuid ad89041e-343c-41f9-a105-b49b49692b8b))
     (pin "9" (uuid 05ce8db7-5c24-4e3a-9b7a-f9f961b6ea04))
+    (pin "12" (uuid 6bcd9145-838d-4bea-82d3-c0b935459f9f))
+    (pin "14" (uuid 76d7bc43-b224-4992-90da-3f0b68ae4e7e))
+    (pin "3" (uuid 15918951-ff31-4961-bc27-0f4191944a3b))
+    (pin "4" (uuid e3ccce26-adf5-4a99-af03-c9877a8d19e8))
+    (pin "5" (uuid fdf88764-0bfe-4800-89e8-d670b3b7e831))
+    (pin "6" (uuid 70101cdd-f920-437f-8668-da326c2f04fc))
+    (pin "7" (uuid 25aac866-0639-48f8-8418-ffd77e513c46))
+    (pin "8" (uuid 5d1ea0fa-7f9f-4928-823c-b7796e20694d))
     (instances
       (project "oresat0.5-minusz-end-cap"
         (path "/428a3328-fdcb-4ef4-b2e8-e380cc78dc33"

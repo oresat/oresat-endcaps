@@ -782,6 +782,40 @@
           (number "9" (effects (font (size 0 0))))
         )
       )
+      (symbol "MMC5883MA_1_1"
+        (pin no_connect line (at 12.7 -11.43 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -12.7 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -3.81 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -5.08 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -6.35 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -7.62 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -8.89 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 12.7 -10.16 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
     )
     (symbol "oresat0.5-plusz-end-cap-eagle-import:R-US_0603-B-NOSILK" (in_bom yes) (on_board yes)
       (property "Reference" "R" (at -3.81 1.4986 0)
@@ -2429,7 +2463,7 @@
     (property "Datasheet" "" (at 302.26 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (at 302.26 127 0)
+    (property "Value" "MMC5883MA" (at 302.26 127 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (pin "1" (uuid b0bd83d7-bf39-4cac-8dc9-24accd413eb8))
@@ -2440,6 +2474,14 @@
     (pin "16" (uuid 2d5b96c0-393f-4c75-9deb-df6b7cc7dd83))
     (pin "2" (uuid cdf8cbb4-be29-460d-a992-0e52d9327e1c))
     (pin "9" (uuid 012bebe3-642a-40ea-a5e4-30bd3003e4ac))
+    (pin "12" (uuid 1d634920-f811-4290-a0cf-c23bbcae291a))
+    (pin "14" (uuid 856fb97e-8af7-4ca6-83c9-accac5800161))
+    (pin "3" (uuid e17cd871-334a-4ad9-9ceb-9466a82596ec))
+    (pin "4" (uuid f1ceea8a-c62d-46e7-bfb4-d86cf7e9c887))
+    (pin "5" (uuid f115818c-ed25-464a-85e7-ab0ca34d27dd))
+    (pin "6" (uuid fb7b98ee-9312-4686-ab81-02d789a86a4d))
+    (pin "7" (uuid c6446ed3-4280-40bb-9523-a69aaa634a25))
+    (pin "8" (uuid f2848833-c989-4a16-adcf-e4d4c504f046))
     (instances
       (project "oresat0.5-plusz-end-cap"
         (path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
@@ -2777,7 +2819,7 @@
     (property "Datasheet" "" (at 302.26 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (at 302.26 189.23 0)
+    (property "Value" "MMC5883MA" (at 302.26 189.23 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
     (pin "1" (uuid 0832e01c-1269-4921-b28c-7e7fb9fc3f40))
@@ -2788,6 +2830,14 @@
     (pin "16" (uuid 906879bc-0e93-43a0-a63a-6a4a0e3d85cd))
     (pin "2" (uuid c2412e74-c780-4590-8c57-1bd921664dfb))
     (pin "9" (uuid 81ff238a-221d-432b-a017-c8cd64caf08e))
+    (pin "12" (uuid 2d19e8b7-ff9e-4954-bab6-96d619d4b873))
+    (pin "14" (uuid 1594ec05-db98-4050-96ce-1494bc7e4c80))
+    (pin "3" (uuid 138225b8-dfe0-455b-9de9-1ff8d9e96e08))
+    (pin "4" (uuid d6bb37df-563d-4198-8f3d-5a3c63bfa93a))
+    (pin "5" (uuid db526ae9-55c7-4465-9765-1e5ebb426c99))
+    (pin "6" (uuid 9ad40b17-d95c-4e3f-9373-2ca2822fdc9c))
+    (pin "7" (uuid 47e08be8-fbee-4314-83e4-2d7368a79f23))
+    (pin "8" (uuid 61cfe2f7-6585-43fd-b95a-c75bd2451dae))
     (instances
       (project "oresat0.5-plusz-end-cap"
         (path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
