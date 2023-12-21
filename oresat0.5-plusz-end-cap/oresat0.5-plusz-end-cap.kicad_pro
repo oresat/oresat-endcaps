@@ -71,7 +71,9 @@
         "solder_mask_bridge|198000000|77500000|d7d2c0a3-ec53-42f0-8d50-c5604c97c7b2|132063db-83d7-48be-b247-77279dfc1d59",
         "solder_mask_bridge|99000000|132500000|cce540a4-fc0f-4c1b-8cd8-d3ee27eb797e|078202ec-3d2e-4d0d-9ecc-69390f2bd968",
         "solder_mask_bridge|99000000|77500000|cce540a4-fc0f-4c1b-8cd8-d3ee27eb797e|078202ec-3d2e-4d0d-9ecc-69390f2bd968",
-        "starved_thermal|108750000|75465000|a9d92bd0-6348-4aa5-85b6-f5c6d0046c09|589bd335-1266-42f7-9dbc-9125f6bc19b7|B.Cu"
+        "starved_thermal|108750000|75465000|a9d92bd0-6348-4aa5-85b6-f5c6d0046c09|589bd335-1266-42f7-9dbc-9125f6bc19b7|B.Cu",
+        "starved_thermal|190425000|78225000|31de170e-05a3-4605-80bd-c93cb4073a26|5ec86be5-4630-49e5-bfe9-f7be726053cd|F.Cu",
+        "starved_thermal|193375000|78225000|31de170e-05a3-4605-80bd-c93cb4073a26|575981d4-a574-40f3-89f0-dddfe5df59ec|F.Cu"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -109,7 +111,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -205,7 +207,48 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [],
+        "name": "NONE",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
