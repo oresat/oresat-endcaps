@@ -6433,121 +6433,6 @@
       )
     )
   )
-  (symbol "LTC4305" (in_bom yes) (on_board yes)
-    (property "Reference" "" (at -12.7 20.32 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Value" "LTC4305" (at -12.7 17.78 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "oresat0-plusz-end-cap:16-SSOP" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "LTC4305_1_0"
-      (polyline
-        (pts
-          (xy -12.7 -15.24)
-          (xy 12.7 -15.24)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -12.7 15.24)
-          (xy -12.7 -15.24)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -15.24)
-          (xy 12.7 15.24)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 15.24)
-          (xy -12.7 15.24)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin input line (at 15.24 -5.08 180) (length 2.54)
-        (name "~{ALERT2}" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -15.24 -5.08 0) (length 2.54)
-        (name "ADR2" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 15.24 -10.16 180) (length 2.54)
-        (name "READY" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 10.16 180) (length 2.54)
-        (name "SCL1" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 7.62 180) (length 2.54)
-        (name "SDA1" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 15.24 5.08 180) (length 2.54)
-        (name "~{ALERT1}" (effects (font (size 1.27 1.27))))
-        (number "14" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 -2.54 180) (length 2.54)
-        (name "SDA2" (effects (font (size 1.27 1.27))))
-        (number "15" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at 15.24 0 180) (length 2.54)
-        (name "SCL2" (effects (font (size 1.27 1.27))))
-        (number "16" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at -15.24 0 0) (length 2.54)
-        (name "~{ALERT}" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -15.24 2.54 0) (length 2.54)
-        (name "SDAIN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -17.78 90) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin bidirectional line (at -15.24 5.08 0) (length 2.54)
-        (name "SCLIN" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -15.24 10.16 0) (length 2.54)
-        (name "ENABLE" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 17.78 270) (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -15.24 -10.16 0) (length 2.54)
-        (name "ADR0" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -15.24 -7.62 0) (length 2.54)
-        (name "ADR1" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
   (symbol "MMC5883MA" (in_bom yes) (on_board yes)
     (property "Reference" "" (at -12.7 22.86 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
@@ -7354,7 +7239,7 @@
       )
     )
   )
-  (symbol "R-US_0204{slash}2V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0204/2V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7370,7 +7255,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0204{slash}2V_1_0"
+    (symbol "R-US_0204/2V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -7453,7 +7338,7 @@
       )
     )
   )
-  (symbol "R-US_0204{slash}5" (in_bom yes) (on_board yes)
+  (symbol "R-US_0204/5" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7469,7 +7354,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0204{slash}5_1_0"
+    (symbol "R-US_0204/5_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -7552,7 +7437,7 @@
       )
     )
   )
-  (symbol "R-US_0204{slash}7" (in_bom yes) (on_board yes)
+  (symbol "R-US_0204/7" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7568,7 +7453,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0204{slash}7_1_0"
+    (symbol "R-US_0204/7_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -7651,7 +7536,7 @@
       )
     )
   )
-  (symbol "R-US_0207{slash}10" (in_bom yes) (on_board yes)
+  (symbol "R-US_0207/10" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7667,7 +7552,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0207{slash}10_1_0"
+    (symbol "R-US_0207/10_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -7750,7 +7635,7 @@
       )
     )
   )
-  (symbol "R-US_0207{slash}12" (in_bom yes) (on_board yes)
+  (symbol "R-US_0207/12" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7766,7 +7651,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0207{slash}12_1_0"
+    (symbol "R-US_0207/12_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -7849,7 +7734,7 @@
       )
     )
   )
-  (symbol "R-US_0207{slash}15" (in_bom yes) (on_board yes)
+  (symbol "R-US_0207/15" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7865,7 +7750,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0207{slash}15_1_0"
+    (symbol "R-US_0207/15_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -7948,7 +7833,7 @@
       )
     )
   )
-  (symbol "R-US_0207{slash}2V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0207/2V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -7964,7 +7849,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0207{slash}2V_1_0"
+    (symbol "R-US_0207/2V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -8047,7 +7932,7 @@
       )
     )
   )
-  (symbol "R-US_0207{slash}5V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0207/5V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -8063,7 +7948,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0207{slash}5V_1_0"
+    (symbol "R-US_0207/5V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -8146,7 +8031,7 @@
       )
     )
   )
-  (symbol "R-US_0207{slash}7" (in_bom yes) (on_board yes)
+  (symbol "R-US_0207/7" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -8162,7 +8047,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0207{slash}7_1_0"
+    (symbol "R-US_0207/7_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -8245,7 +8130,7 @@
       )
     )
   )
-  (symbol "R-US_0309{slash}10" (in_bom yes) (on_board yes)
+  (symbol "R-US_0309/10" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -8261,7 +8146,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0309{slash}10_1_0"
+    (symbol "R-US_0309/10_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -8344,7 +8229,7 @@
       )
     )
   )
-  (symbol "R-US_0309{slash}12" (in_bom yes) (on_board yes)
+  (symbol "R-US_0309/12" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -8360,7 +8245,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0309{slash}12_1_0"
+    (symbol "R-US_0309/12_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -8443,7 +8328,7 @@
       )
     )
   )
-  (symbol "R-US_0309{slash}V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0309/V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -8459,7 +8344,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0309{slash}V_1_0"
+    (symbol "R-US_0309/V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -9136,7 +9021,7 @@
       )
     )
   )
-  (symbol "R-US_0411{slash}12" (in_bom yes) (on_board yes)
+  (symbol "R-US_0411/12" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -9152,7 +9037,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0411{slash}12_1_0"
+    (symbol "R-US_0411/12_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -9235,7 +9120,7 @@
       )
     )
   )
-  (symbol "R-US_0411{slash}15" (in_bom yes) (on_board yes)
+  (symbol "R-US_0411/15" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -9251,7 +9136,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0411{slash}15_1_0"
+    (symbol "R-US_0411/15_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -9334,7 +9219,7 @@
       )
     )
   )
-  (symbol "R-US_0411{slash}3V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0411/3V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -9350,7 +9235,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0411{slash}3V_1_0"
+    (symbol "R-US_0411/3V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -9433,7 +9318,7 @@
       )
     )
   )
-  (symbol "R-US_0414{slash}15" (in_bom yes) (on_board yes)
+  (symbol "R-US_0414/15" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -9449,7 +9334,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0414{slash}15_1_0"
+    (symbol "R-US_0414/15_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -9532,7 +9417,7 @@
       )
     )
   )
-  (symbol "R-US_0414{slash}5V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0414/5V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -9548,7 +9433,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0414{slash}5V_1_0"
+    (symbol "R-US_0414/5V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -10225,7 +10110,7 @@
       )
     )
   )
-  (symbol "R-US_0613{slash}15" (in_bom yes) (on_board yes)
+  (symbol "R-US_0613/15" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -10241,7 +10126,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0613{slash}15_1_0"
+    (symbol "R-US_0613/15_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -10324,7 +10209,7 @@
       )
     )
   )
-  (symbol "R-US_0613{slash}5V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0613/5V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -10340,7 +10225,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0613{slash}5V_1_0"
+    (symbol "R-US_0613/5V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -10423,7 +10308,7 @@
       )
     )
   )
-  (symbol "R-US_0617{slash}17" (in_bom yes) (on_board yes)
+  (symbol "R-US_0617/17" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -10439,7 +10324,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0617{slash}17_1_0"
+    (symbol "R-US_0617/17_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -10522,7 +10407,7 @@
       )
     )
   )
-  (symbol "R-US_0617{slash}22" (in_bom yes) (on_board yes)
+  (symbol "R-US_0617/22" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -10538,7 +10423,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0617{slash}22_1_0"
+    (symbol "R-US_0617/22_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -10621,7 +10506,7 @@
       )
     )
   )
-  (symbol "R-US_0617{slash}5V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0617/5V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -10637,7 +10522,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0617{slash}5V_1_0"
+    (symbol "R-US_0617/5V_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -11314,7 +11199,7 @@
       )
     )
   )
-  (symbol "R-US_0817{slash}22" (in_bom yes) (on_board yes)
+  (symbol "R-US_0817/22" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -11330,7 +11215,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0817{slash}22_1_0"
+    (symbol "R-US_0817/22_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -11413,7 +11298,7 @@
       )
     )
   )
-  (symbol "R-US_0817{slash}7V" (in_bom yes) (on_board yes)
+  (symbol "R-US_0817/7V" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -11429,7 +11314,106 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_0817{slash}7V_1_0"
+    (symbol "R-US_0817/7V_1_0"
+      (polyline
+        (pts
+          (xy -2.54 0)
+          (xy -2.159 1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -2.159 1.016)
+          (xy -1.524 -1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -1.524 -1.016)
+          (xy -0.889 1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.889 1.016)
+          (xy -0.254 -1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -0.254 -1.016)
+          (xy 0.381 1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0.381 1.016)
+          (xy 1.016 -1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.016 -1.016)
+          (xy 1.651 1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.651 1.016)
+          (xy 2.286 -1.016)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.286 -1.016)
+          (xy 2.54 0)
+        )
+        (stroke (width 0.2032) (type default))
+        (fill (type none))
+      )
+      (pin passive line (at -5.08 0 0) (length 2.54)
+        (name "1" (effects (font (size 0 0))))
+        (number "1" (effects (font (size 0 0))))
+      )
+      (pin passive line (at 5.08 0 180) (length 2.54)
+        (name "2" (effects (font (size 0 0))))
+        (number "2" (effects (font (size 0 0))))
+      )
+    )
+  )
+  (symbol "R-US_0922/22" (in_bom yes) (on_board yes)
+    (property "Reference" "R" (at -3.81 1.4986 0)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    )
+    (property "Value" "R-US_0922{slash}22" (at -3.81 -3.302 0)
+      (effects (font (size 1.778 1.5113)) (justify left bottom))
+    )
+    (property "Footprint" "oresat0-plusz-end-cap:0922_22" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (symbol "R-US_0922/22_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -11529,105 +11513,6 @@
       (effects (font (size 1.27 1.27)))
     )
     (symbol "R-US_0922V_1_0"
-      (polyline
-        (pts
-          (xy -2.54 0)
-          (xy -2.159 1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.159 1.016)
-          (xy -1.524 -1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.524 -1.016)
-          (xy -0.889 1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.889 1.016)
-          (xy -0.254 -1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.254 -1.016)
-          (xy 0.381 1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.381 1.016)
-          (xy 1.016 -1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.016 -1.016)
-          (xy 1.651 1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.651 1.016)
-          (xy 2.286 -1.016)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.286 -1.016)
-          (xy 2.54 0)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at -5.08 0 0) (length 2.54)
-        (name "1" (effects (font (size 0 0))))
-        (number "1" (effects (font (size 0 0))))
-      )
-      (pin passive line (at 5.08 0 180) (length 2.54)
-        (name "2" (effects (font (size 0 0))))
-        (number "2" (effects (font (size 0 0))))
-      )
-    )
-  )
-  (symbol "R-US_0922{slash}22" (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -3.81 1.4986 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Value" "R-US_0922{slash}22" (at -3.81 -3.302 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "oresat0-plusz-end-cap:0922_22" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_locked" "" (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (symbol "R-US_0922{slash}22_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -16066,7 +15951,7 @@
       )
     )
   )
-  (symbol "R-US_RDH{slash}15" (in_bom yes) (on_board yes)
+  (symbol "R-US_RDH/15" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -16082,7 +15967,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_RDH{slash}15_1_0"
+    (symbol "R-US_RDH/15_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -16165,7 +16050,7 @@
       )
     )
   )
-  (symbol "R-US_V234{slash}12" (in_bom yes) (on_board yes)
+  (symbol "R-US_V234/12" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -16181,7 +16066,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_V234{slash}12_1_0"
+    (symbol "R-US_V234/12_1_0"
       (polyline
         (pts
           (xy -2.54 0)
@@ -16264,7 +16149,7 @@
       )
     )
   )
-  (symbol "R-US_V235{slash}17" (in_bom yes) (on_board yes)
+  (symbol "R-US_V235/17" (in_bom yes) (on_board yes)
     (property "Reference" "R" (at -3.81 1.4986 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
@@ -16280,7 +16165,7 @@
     (property "ki_locked" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (symbol "R-US_V235{slash}17_1_0"
+    (symbol "R-US_V235/17_1_0"
       (polyline
         (pts
           (xy -2.54 0)
