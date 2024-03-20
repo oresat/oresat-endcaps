@@ -3252,18 +3252,6 @@
 		(uuid "e1fb8c57-31f2-4644-ad5c-3284fc405e58")
 	)
 	(junction
-		(at 124.46 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2c4e036-426f-4b5e-9405-05d3f2b4c20d")
-	)
-	(junction
-		(at 139.7 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2f24972-a6cc-4f33-8486-4932ddd0b3e0")
-	)
-	(junction
 		(at 233.68 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3635,16 +3623,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 101.6 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341822d4-8570-405d-8d9a-882ead51cc7c")
-	)
-	(wire
-		(pts
 			(xy 231.14 114.3) (xy 208.28 114.3)
 		)
 		(stroke
@@ -3675,7 +3653,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 111.76) (xy 132.08 111.76)
+			(xy 101.6 111.76) (xy 132.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3742,16 +3720,6 @@
 			(type default)
 		)
 		(uuid "49bf708e-9d9a-4472-bf47-1be29b614c04")
-	)
-	(wire
-		(pts
-			(xy 124.46 111.76) (xy 124.46 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d39a40-dac0-4d8d-a5c3-6f526b7941ca")
 	)
 	(wire
 		(pts
@@ -3885,7 +3853,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 147.32 116.84)
+			(xy 101.6 116.84) (xy 147.32 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3925,7 +3893,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 105.41) (xy 124.46 111.76)
+			(xy 124.46 105.41) (xy 124.46 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4045,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 116.84) (xy 139.7 111.76)
+			(xy 139.7 111.76) (xy 139.7 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4265,16 +4233,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 119.38) (xy 139.7 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "964a2968-b3b2-467c-8df4-d58eda9ff375")
-	)
-	(wire
-		(pts
 			(xy 280.67 181.61) (xy 264.16 181.61)
 		)
 		(stroke
@@ -4342,16 +4300,6 @@
 			(type default)
 		)
 		(uuid "ac352c68-77b7-4c87-a3a9-5cca17300ac0")
-	)
-	(wire
-		(pts
-			(xy 124.46 111.76) (xy 101.6 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae263614-1d84-4049-9124-1d9fb7147b14")
 	)
 	(wire
 		(pts
@@ -5244,7 +5192,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 325.12 120.65 0)
 			(effects
 				(font
@@ -5760,7 +5708,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 91.44 124.46 0)
 			(effects
 				(font
@@ -6185,7 +6133,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 236.22 104.14 0)
 			(effects
 				(font
@@ -6454,7 +6402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 236.22 166.37 0)
 			(effects
 				(font
@@ -6524,7 +6472,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -6594,7 +6542,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 175.26 104.14 0)
 			(effects
 				(font
@@ -6731,7 +6679,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -7001,7 +6949,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 231.14 166.37 0)
 			(effects
 				(font
@@ -7138,7 +7086,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 275.59 153.67 0)
 			(effects
 				(font
@@ -7544,7 +7492,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -7746,7 +7694,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -7816,7 +7764,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -7887,7 +7835,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 325.12 91.44 0)
 			(effects
 				(font
@@ -8224,7 +8172,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 124.46 142.24 0)
 			(effects
 				(font
@@ -8427,7 +8375,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 275.59 91.44 0)
 			(effects
 				(font
@@ -8630,7 +8578,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 121.92 173.99 0)
 			(effects
 				(font
@@ -8768,7 +8716,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 325.12 153.67 0)
 			(effects
 				(font
@@ -8839,7 +8787,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 325.12 182.88 0)
 			(effects
 				(font
@@ -9112,7 +9060,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 121.92 184.15 90)
 			(effects
 				(font
@@ -9293,7 +9241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 210.82 137.16 0)
 			(effects
 				(font
