@@ -1,4 +1,4 @@
-23284966210209279
+23295162465599578
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94737,6 +94737,41 @@ Varistor VF
 0
 2
 2
+oresat-graphics
+FLIGHTMARKER
+
+
+0
+0
+0
+oresat-graphics
+FLIGHTMARKER_NEW_BOARDS
+
+
+0
+0
+0
+oresat-graphics
+PSAS_LOGO_10X10
+
+
+0
+0
+0
+oresat-graphics
+logo-small
+
+
+0
+0
+0
+oresat-ics
+16-SSOP
+
+
+0
+16
+16
 oresat-ics
 856930-saw-filter
 
@@ -95059,6 +95094,13 @@ net tie solder jumper bridged
 0
 3
 3
+oresat-misc
+Taoglas-GPS-Patch-Antenna
+
+
+0
+1
+1
 oresat-misc
 TestPoint-0.75mm-th
 

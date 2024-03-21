@@ -58,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA"
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO*"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -284,554 +284,11 @@
 				)
 			)
 		)
-		(symbol "MMC5983MA_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.604 -20.574 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MMC5983MA"
-				(at -8.382 20.066 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-ics:LGA-16(3X3)"
-				(at 0.254 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/333/MMC5983MA_RevA_4-3-19.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMC5983MA_1_1_0"
-				(arc
-					(start -2.54 3.81)
-					(mid -1.7961 2.0139)
-					(end 0 1.27)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -16.51) (xy 12.7 -16.51)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 15.24) (xy -12.7 -16.51)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 6.858) (xy -2.54 5.842)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 6.858) (xy -2.032 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 6.858) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 3.048 6.858)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.794 4.445)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy -2.032 4.318)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 8.255)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 8.255) (xy -0.381 7.112)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 8.255) (xy 0.381 7.112)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 6.858) (xy 2.032 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 6.858) (xy 2.54 5.842)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -16.51) (xy 12.7 15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 15.24) (xy -12.7 15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mag."
-					(at 3.302 3.048 0)
-					(effects
-						(font
-							(size 1.778 1.5113)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 2.54)
-					(name "SCL/SPI_SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "CAP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -19.05 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 17.78 270)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 -11.43 0)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -3.81 0)
-					(length 2.54)
-					(name "SDA/SPI_SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 17.78 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -19.05 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MMC5983MA_1_1_1"
-				(pin no_connect line
-					(at 12.7 -12.7 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -13.97 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -7.62 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 6.35 0)
-					(length 2.54)
-					(name "SPI_CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -15.24 -7.62 0)
-					(length 2.54)
-					(name "SPI_SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -8.89 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -10.16 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 12.7 -11.43 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "oresat-ics:LTC4305"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" ""
 				(at -12.7 20.32 0)
 				(effects
 					(font
@@ -850,7 +307,7 @@
 				)
 			)
 			(property "Footprint" "oresat0-plusz-end-cap:16-SSOP"
-				(at 0 34.29 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -858,8 +315,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4305.pdf"
-				(at 0 31.75 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -874,6 +331,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "LTC4305_1_0"
@@ -979,7 +444,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 2.54)
 					(name "SCL1"
@@ -1051,7 +516,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 15.24 0 180)
 					(length 2.54)
 					(name "SCL2"
@@ -1123,7 +588,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -15.24 5.08 0)
 					(length 2.54)
 					(name "SCLIN"
@@ -1238,7 +703,7 @@
 				)
 			)
 			(property "Footprint" "oresat-ics:LGA-16(3X3)"
-				(at 0.254 -2.286 0)
+				(at -0.508 29.972 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1247,7 +712,7 @@
 				)
 			)
 			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/333/MMC5983MA_RevA_4-3-19.pdf"
-				(at 0 -1.27 0)
+				(at -0.508 33.274 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1484,7 +949,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 15.24 0 180)
 					(length 2.54)
 					(name "CAP"
@@ -3045,7 +2510,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5192,14 +4657,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 325.12 120.65 0)
+		(property "Value" "10u"
+			(at 324.358 125.73 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -5444,7 +4908,6 @@
 		)
 	)
 	(symbol
-		(lib_name "MMC5983MA_1")
 		(lib_id "oresat-ics:MMC5983MA")
 		(at 304.8 111.76 0)
 		(unit 1)
@@ -5809,7 +5272,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "29c971cf-be83-41ad-914f-a8fd73ae8e7f")
 		(property "Reference" "R12"
 			(at 262.89 183.1086 0)
@@ -5820,7 +5283,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NP"
+		(property "Value" "2.7k"
 			(at 257.81 182.88 0)
 			(effects
 				(font
@@ -5965,7 +5428,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:16-SSOP"
+		(property "Footprint" "oresat-ics:16-SSOP"
 			(at 193.04 87.63 0)
 			(effects
 				(font
@@ -6125,7 +5588,7 @@
 		(dnp no)
 		(uuid "37a0f131-0963-4edd-a267-a2c445140670")
 		(property "Reference" "R7"
-			(at 234.7214 107.95 0)
+			(at 240.538 108.204 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6133,14 +5596,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 236.22 104.14 0)
+		(property "Value" "4.7k"
+			(at 240.284 103.886 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -6394,7 +5856,7 @@
 		(dnp no)
 		(uuid "47081803-6c15-43d9-9a7d-ffbb3450f174")
 		(property "Reference" "R5"
-			(at 234.7214 170.18 0)
+			(at 240.03 170.688 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6402,14 +5864,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 236.22 166.37 0)
+		(property "Value" "4.7k"
+			(at 239.776 167.132 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -6464,7 +5925,7 @@
 		(dnp no)
 		(uuid "49e84e02-579a-4277-ac05-87cd0b696d25")
 		(property "Reference" "R6"
-			(at 229.6414 107.95 0)
+			(at 229.362 108.204 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6472,14 +5933,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 231.14 104.14 0)
+		(property "Value" "4.7k"
+			(at 229.362 103.886 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -6534,7 +5994,7 @@
 		(dnp no)
 		(uuid "4c2f6ca0-8159-44c5-8f51-3deabcc9c300")
 		(property "Reference" "R10"
-			(at 173.7614 107.95 0)
+			(at 173.482 109.22 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6542,14 +6002,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 175.26 104.14 0)
+		(property "Value" "4.7k"
+			(at 173.482 102.87 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -6671,7 +6130,7 @@
 		(dnp no)
 		(uuid "4e5f8588-6900-4a58-a786-637fa00375a9")
 		(property "Reference" "R3"
-			(at 209.3214 107.95 0)
+			(at 214.122 108.458 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6679,14 +6138,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 210.82 104.14 0)
+		(property "Value" "4.7k"
+			(at 214.122 104.394 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -6941,7 +6399,7 @@
 		(dnp no)
 		(uuid "5bbfc13e-cb15-419a-b894-f5f5740404d5")
 		(property "Reference" "R4"
-			(at 229.6414 170.18 0)
+			(at 229.616 170.942 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6949,14 +6407,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 231.14 166.37 0)
+		(property "Value" "4.7k"
+			(at 229.616 167.132 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -7086,14 +6543,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 275.59 153.67 0)
+		(property "Value" "100n"
+			(at 276.098 159.004 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -7412,7 +6868,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7be5d6c7-f0fa-4288-8e7e-aafd23bd9d35")
 		(property "Reference" "R11"
 			(at 262.89 120.8786 0)
@@ -7423,7 +6879,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NP"
+		(property "Value" "2.7k"
 			(at 257.81 120.65 0)
 			(effects
 				(font
@@ -7492,14 +6948,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 198.12 96.52 0)
+		(property "Value" "100n"
+			(at 203.454 96.012 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -7589,7 +7044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 132.08 128.27 0)
 			(effects
 				(font
@@ -7655,7 +7110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 133.35 104.14 0)
 			(effects
 				(font
@@ -7694,14 +7149,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 167.64 135.89 0)
+		(property "Value" "4.7k"
+			(at 166.116 136.144 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -7756,7 +7210,7 @@
 		(dnp no)
 		(uuid "8ce63507-2d2a-4550-83f8-21bae58c3430")
 		(property "Reference" "R8"
-			(at 214.4014 107.95 0)
+			(at 219.71 108.204 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7764,14 +7218,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 215.9 104.14 0)
+		(property "Value" "4.7k"
+			(at 219.71 104.14 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -7835,14 +7288,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 325.12 91.44 0)
+		(property "Value" "100n"
+			(at 324.866 96.266 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -8172,14 +7624,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 124.46 142.24 0)
+		(property "Value" "10u"
+			(at 124.206 146.812 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -8375,14 +7826,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 275.59 91.44 0)
+		(property "Value" "100n"
+			(at 276.098 96.266 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -8570,7 +8020,7 @@
 		(dnp no)
 		(uuid "c0448eb3-3758-42da-b3d8-54b280f62447")
 		(property "Reference" "R2"
-			(at 120.4214 177.8 0)
+			(at 119.38 174.752 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8578,14 +8028,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 121.92 173.99 0)
+		(property "Value" "2.7k"
+			(at 126.238 175.514 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -8716,14 +8165,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 325.12 153.67 0)
+		(property "Value" "100n"
+			(at 324.612 158.496 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -8787,14 +8235,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 325.12 182.88 0)
+		(property "Value" "10u"
+			(at 324.612 187.706 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
@@ -9018,7 +8465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -9233,7 +8680,7 @@
 		(dnp no)
 		(uuid "f5ca5a88-ab20-437f-9f7a-adb53e3920c2")
 		(property "Reference" "R9"
-			(at 214.63 140.97 0)
+			(at 214.376 141.732 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9241,14 +8688,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "~"
-			(at 210.82 137.16 0)
+		(property "Value" "4.7k"
+			(at 214.376 138.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-minusz-end-cap:.0603-B-NOSILK"
