@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat0.5 +Z End Cap")
-		(date "2023-12-20")
-		(rev "1.1")
+		(date "2023-03-02")
+		(rev "1.3")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -1313,109 +1313,6 @@
 				)
 			)
 		)
-		(symbol "oresat0.5-plusz-end-cap-eagle-import:3.3V"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3.3V"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" "oresat0-plusz-end-cap:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1549,97 +1446,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "oresat0.5-plusz-end-cap-eagle-import:GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat0-plusz-end-cap:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -2579,6 +2385,222 @@
 				)
 			)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
@@ -2677,7 +2699,7 @@
 		)
 	)
 	(junction
-		(at 231.14 171.45)
+		(at 233.68 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0971a0be-c71f-45db-a6df-2f7ab20479ad")
@@ -2701,13 +2723,13 @@
 		(uuid "19f577e1-a67c-4ebc-b8a1-d4d458a33fb7")
 	)
 	(junction
-		(at 231.14 109.22)
+		(at 233.68 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b327379-4476-4036-b5b0-9d91d37d0de4")
 	)
 	(junction
-		(at 228.6 186.69)
+		(at 231.14 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b8ec30-0612-4f63-b11e-03d6d0aa3935")
@@ -2767,7 +2789,7 @@
 		(uuid "4dfb4239-e8ed-4686-96f1-990ff437463d")
 	)
 	(junction
-		(at 243.84 189.23)
+		(at 246.38 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5771bb27-0607-4e95-a5cc-b7875130f800")
@@ -2791,7 +2813,7 @@
 		(uuid "5faef45b-e57b-4012-b06e-5da22184ab75")
 	)
 	(junction
-		(at 240.03 186.69)
+		(at 242.57 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6acb918f-9a22-4d46-beba-b0462948df4d")
@@ -2809,7 +2831,7 @@
 		(uuid "7982c81d-22ec-4ae0-a035-ac38ea32fbcf")
 	)
 	(junction
-		(at 233.68 189.23)
+		(at 236.22 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c1581fe-1ddf-443e-9f7b-33f6053ff84c")
@@ -2839,7 +2861,7 @@
 		(uuid "afab7151-b31e-4c14-8219-bd27b184d94e")
 	)
 	(junction
-		(at 233.68 124.46)
+		(at 236.22 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0e1045d-d988-4db9-9112-65a5e56a93b8")
@@ -2869,7 +2891,7 @@
 		(uuid "d3e6f0ae-e70c-4686-bbd6-abe972f62de7")
 	)
 	(junction
-		(at 228.6 127)
+		(at 231.14 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d845a852-dd47-4c2d-9bf2-a76bdc439eee")
@@ -2972,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 233.68 109.22)
+			(xy 233.68 109.22) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2982,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 127) (xy 228.6 127)
+			(xy 205.74 127) (xy 231.14 127)
 		)
 		(stroke
 			(width 0)
@@ -3022,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 124.46) (xy 233.68 124.46)
+			(xy 205.74 124.46) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3032,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 171.45) (xy 322.58 173.99)
+			(xy 322.58 168.91) (xy 322.58 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3062,7 +3084,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 184.15) (xy 228.6 186.69)
+			(xy 231.14 184.15) (xy 231.14 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 189.23) (xy 243.84 189.23)
+			(xy 236.22 189.23) (xy 246.38 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 160.02) (xy 322.58 163.83)
+			(xy 322.58 160.02) (xy 322.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3152,7 +3174,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 101.6) (xy 274.32 99.06)
+			(xy 274.32 100.33) (xy 274.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3172,7 +3194,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 109.22) (xy 228.6 111.76)
+			(xy 231.14 109.22) (xy 231.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3202,7 +3224,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 191.77) (xy 119.38 194.31)
+			(xy 119.38 191.77) (xy 119.38 193.04)
 		)
 		(stroke
 			(width 0)
@@ -3302,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 228.6 109.22)
+			(xy 233.68 109.22) (xy 231.14 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3332,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 156.21) (xy 114.3 162.56)
+			(xy 114.3 156.21) (xy 114.3 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3374,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 171.45) (xy 233.68 171.45)
+			(xy 233.68 171.45) (xy 236.22 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3379,6 +3401,16 @@
 			(type default)
 		)
 		(uuid "40c11ffb-6572-4152-b211-bbe147f4cad8")
+	)
+	(wire
+		(pts
+			(xy 302.26 205.74) (xy 302.26 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424b9c71-a208-48f9-a275-7245a72c3fa8")
 	)
 	(wire
 		(pts
@@ -3512,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 160.02) (xy 121.92 162.56)
+			(xy 121.92 160.02) (xy 121.92 161.29)
 		)
 		(stroke
 			(width 0)
@@ -3522,7 +3554,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 99.06) (xy 322.58 101.6)
+			(xy 322.58 99.06) (xy 322.58 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3542,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 173.99) (xy 228.6 171.45)
+			(xy 231.14 173.99) (xy 231.14 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3562,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 160.02) (xy 99.06 157.48)
+			(xy 99.06 161.29) (xy 99.06 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3572,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 189.23) (xy 281.94 189.23)
+			(xy 246.38 189.23) (xy 281.94 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3582,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 121.92) (xy 233.68 124.46)
+			(xy 236.22 121.92) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3602,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 201.93) (xy 119.38 204.47)
+			(xy 119.38 200.66) (xy 119.38 201.93)
 		)
 		(stroke
 			(width 0)
@@ -3652,7 +3684,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 109.22) (xy 233.68 111.76)
+			(xy 236.22 109.22) (xy 236.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3662,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 171.45) (xy 233.68 173.99)
+			(xy 236.22 171.45) (xy 236.22 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3672,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 171.45) (xy 274.32 173.99)
+			(xy 274.32 168.91) (xy 274.32 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3682,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 109.22) (xy 231.14 106.68)
+			(xy 233.68 109.22) (xy 233.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3712,7 +3744,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 109.22) (xy 203.2 111.76)
+			(xy 200.66 109.22) (xy 200.66 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3782,7 +3814,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 189.23) (xy 233.68 189.23)
+			(xy 219.71 189.23) (xy 236.22 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3812,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 184.15) (xy 233.68 189.23)
+			(xy 236.22 184.15) (xy 236.22 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +3934,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 186.69) (xy 222.25 186.69)
+			(xy 231.14 186.69) (xy 222.25 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3962,7 +3994,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 124.46) (xy 242.57 124.46)
+			(xy 236.22 124.46) (xy 242.57 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3972,7 +4004,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 171.45) (xy 231.14 171.45)
+			(xy 231.14 171.45) (xy 233.68 171.45)
 		)
 		(stroke
 			(width 0)
@@ -4012,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 186.69) (xy 240.03 186.69)
+			(xy 231.14 186.69) (xy 242.57 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4062,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 171.45) (xy 231.14 168.91)
+			(xy 233.68 171.45) (xy 233.68 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4079,16 +4111,6 @@
 			(type default)
 		)
 		(uuid "c4cbcf12-0f9f-4212-9884-10f39f2d18fb")
-	)
-	(wire
-		(pts
-			(xy 322.58 200.66) (xy 322.58 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f438ab-a569-4c88-b46e-f5265cf8fdcd")
 	)
 	(wire
 		(pts
@@ -4182,7 +4204,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 109.22) (xy 203.2 109.22)
+			(xy 199.39 109.22) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4202,7 +4224,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 109.22) (xy 190.5 109.22)
+			(xy 191.77 109.22) (xy 190.5 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4219,16 +4241,6 @@
 			(type default)
 		)
 		(uuid "dbe46c73-0022-41ef-ae9f-27dbba8d9b88")
-	)
-	(wire
-		(pts
-			(xy 302.26 205.74) (xy 302.26 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df9341ad-da4e-42c8-9109-4b163fbdb260")
 	)
 	(wire
 		(pts
@@ -4252,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 111.76) (xy 322.58 109.22)
+			(xy 322.58 109.22) (xy 322.58 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4302,6 +4314,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 200.66) (xy 322.58 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efcbee50-2467-4647-a299-3429cf05ec38")
+	)
+	(wire
+		(pts
 			(xy 222.25 186.69) (xy 222.25 134.62)
 		)
 		(stroke
@@ -4322,7 +4344,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 186.69) (xy 287.02 186.69)
+			(xy 242.57 186.69) (xy 287.02 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4342,7 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 109.22) (xy 274.32 111.76)
+			(xy 274.32 107.95) (xy 274.32 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4362,7 +4384,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 163.83) (xy 274.32 160.02)
+			(xy 274.32 161.29) (xy 274.32 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4372,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 121.92) (xy 228.6 127)
+			(xy 231.14 121.92) (xy 231.14 127)
 		)
 		(stroke
 			(width 0)
@@ -4392,7 +4414,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 86.36) (xy 124.46 88.9)
+			(xy 124.46 86.36) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4422,7 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 127) (xy 228.6 127)
+			(xy 246.38 127) (xy 231.14 127)
 		)
 		(stroke
 			(width 0)
@@ -4430,20 +4452,9 @@
 		)
 		(uuid "fdb5daa1-1116-41ac-b844-97cc0835482c")
 	)
-	(text "0x88"
-		(exclude_from_sim no)
-		(at 167.64 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c52b15c-b14d-444d-8a37-42c2ca317650")
-	)
 	(text "-X+Y Corner"
 		(exclude_from_sim no)
-		(at 281.94 208.28 0)
+		(at 332.74 184.15 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -4451,17 +4462,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e16b64a-0313-4c99-bd69-67cfee62f243")
-	)
-	(text "3.3V power comes from C3 card's eFuse IC."
-		(exclude_from_sim no)
-		(at 50.8 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "14305ab3-1647-4f94-85fe-9f5a3d9c8045")
 	)
 	(text "MAG-PWR"
 		(exclude_from_sim no)
@@ -4485,9 +4485,19 @@
 		)
 		(uuid "45d805e7-4031-49ac-85c0-2826d6cd7573")
 	)
+	(text "Populate for flight? Or?"
+		(exclude_from_sim no)
+		(at 142.24 196.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b9897c3-4d7f-4fb6-9fd0-d7e3a83597f6")
+	)
 	(text "+X-Y Corner"
 		(exclude_from_sim no)
-		(at 281.94 146.05 0)
+		(at 330.2 121.92 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -4496,9 +4506,19 @@
 		)
 		(uuid "900b5364-0b60-4ffd-a2b7-f83be53df46d")
 	)
-	(text "I2C from C3"
+	(text "ADRS2:ADRS0 = 000\ngives address 0x88"
 		(exclude_from_sim no)
-		(at 81.28 129.54 0)
+		(at 176.53 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c32aba0-136e-4c11-b700-bafe2deeb1dc")
+	)
+	(text "3.3V and I2C signals are provide by the\nADCS card. They use SPARE1 - SPARE6 on \nthe backplane, and use this 12 pin \nconnector to get from the -Z end card."
+		(exclude_from_sim no)
+		(at 52.07 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4662,8 +4682,8 @@
 		(uuid "f9cb6172-1a5c-4023-877f-e3bc451c0a82")
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 322.58 209.55 0)
+		(lib_id "power:GND")
+		(at 322.58 207.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4672,7 +4692,7 @@
 		(dnp no)
 		(uuid "008879f6-4ac1-4fa4-a392-d0cca9f46fed")
 		(property "Reference" "#GND06"
-			(at 322.58 209.55 0)
+			(at 322.58 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4710,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 322.58 209.55 0)
+			(at 322.58 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 209.55 0)
+			(at 322.58 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,8 +4727,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 322.58 209.55 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,8 +4749,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 302.26 147.32 0)
+		(lib_id "power:GND")
+		(at 302.26 144.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4739,7 +4759,7 @@
 		(dnp no)
 		(uuid "017352cc-5689-4663-a280-8bcc4b4429ad")
 		(property "Reference" "#GND02"
-			(at 302.26 147.32 0)
+			(at 302.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4777,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 302.26 147.32 0)
+			(at 302.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 147.32 0)
+			(at 302.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,8 +4794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 302.26 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 302.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,8 +4816,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 124.46 91.44 0)
+		(lib_id "power:GND")
+		(at 124.46 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4806,7 +4826,7 @@
 		(dnp no)
 		(uuid "03d93d97-befe-4ed5-8af6-319d37e6a38b")
 		(property "Reference" "#GND0102"
-			(at 124.46 91.44 0)
+			(at 124.46 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +4835,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 93.98 0)
+			(at 127 92.71 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4824,7 +4844,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 124.46 91.44 0)
+			(at 124.46 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +4853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 91.44 0)
+			(at 124.46 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,8 +4861,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 91.44 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,8 +4883,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 114.3 165.1 0)
+		(lib_id "power:GND")
+		(at 114.3 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4873,7 +4893,7 @@
 		(dnp no)
 		(uuid "08e338c0-db92-4a39-8b29-6fd23d887757")
 		(property "Reference" "#GND025"
-			(at 114.3 165.1 0)
+			(at 114.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +4902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 167.64 0)
+			(at 116.84 166.37 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4891,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 114.3 165.1 0)
+			(at 114.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4900,7 +4920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 165.1 0)
+			(at 114.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,8 +4928,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4951,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
-		(at 322.58 166.37 0)
+		(at 322.58 163.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4940,7 +4960,7 @@
 		(dnp no)
 		(uuid "0a20b28c-6873-4e72-aee3-419704d0e34d")
 		(property "Reference" "C10"
-			(at 321.056 165.989 0)
+			(at 321.056 163.449 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4949,7 +4969,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 322.326 171.196 0)
+			(at 322.326 168.656 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -4958,7 +4978,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 322.58 166.37 0)
+			(at 322.58 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +4987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 166.37 0)
+			(at 322.58 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 166.37 0)
+			(at 322.58 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5021,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
-		(at 195.58 109.22 90)
+		(at 194.31 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5009,7 +5029,7 @@
 		(dnp no)
 		(uuid "0b7ed0b7-c0f1-4d66-84d9-dee148653aa5")
 		(property "Reference" "C3"
-			(at 195.199 107.696 0)
+			(at 198.12 101.6 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5018,7 +5038,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 200.66 108.712 0)
+			(at 200.66 104.14 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5027,7 +5047,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 195.58 109.22 0)
+			(at 194.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 109.22 0)
+			(at 194.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5065,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 109.22 0)
+			(at 194.31 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,8 +5089,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 190.5 158.75 0)
+		(lib_id "power:GND")
+		(at 190.5 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5079,7 +5099,7 @@
 		(dnp no)
 		(uuid "1bc76daa-766d-4b93-8168-0f3f7805856d")
 		(property "Reference" "#GND013"
-			(at 190.5 158.75 0)
+			(at 190.5 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 190.5 158.75 0)
+			(at 190.5 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 158.75 0)
+			(at 190.5 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5114,8 +5134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5165,7 @@
 		(dnp no)
 		(uuid "1c86818b-d62b-4ae9-b50b-38d7a04cf42b")
 		(property "Reference" "R3"
-			(at 209.3214 119.38 0)
+			(at 209.55 113.538 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5154,7 +5174,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 209.042 115.57 0)
+			(at 209.55 116.332 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5214,7 +5234,7 @@
 		(dnp no)
 		(uuid "21183f0b-c78c-4653-bd6a-35bfffade318")
 		(property "Reference" "R8"
-			(at 219.71 119.634 0)
+			(at 220.726 113.03 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5223,7 +5243,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 219.964 115.316 0)
+			(at 222.504 115.57 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5275,7 +5295,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
-		(at 322.58 104.14 0)
+		(at 322.58 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5284,7 +5304,7 @@
 		(dnp no)
 		(uuid "220cc626-63c7-4a4c-be29-45282368bdd5")
 		(property "Reference" "C7"
-			(at 321.056 103.759 0)
+			(at 321.056 102.489 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5293,7 +5313,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 322.326 109.22 0)
+			(at 322.326 107.95 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5302,7 +5322,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 322.58 104.14 0)
+			(at 322.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 104.14 0)
+			(at 322.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5340,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 322.58 104.14 0)
+			(at 322.58 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,8 +5364,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 119.38 207.01 0)
+		(lib_id "power:GND")
+		(at 119.38 201.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5354,7 +5374,7 @@
 		(dnp no)
 		(uuid "22a4373d-6fd5-4d65-8a63-4b4b458713e9")
 		(property "Reference" "#GND08"
-			(at 119.38 207.01 0)
+			(at 119.38 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 209.55 0)
+			(at 121.92 207.01 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5372,7 +5392,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 119.38 207.01 0)
+			(at 119.38 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 207.01 0)
+			(at 119.38 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,8 +5409,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 207.01 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5498,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 240.03 186.69 0)
+		(at 242.57 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5486,7 +5506,7 @@
 		(dnp no)
 		(uuid "28e14d81-cdf4-449a-937c-a4672a0ddf94")
 		(property "Reference" "TP4"
-			(at 238.76 184.15 0)
+			(at 241.3 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5495,7 +5515,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 240.03 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5524,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 240.03 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5542,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 186.69 0)
+			(at 242.57 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5564,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:LED-GREEN0603")
-		(at 119.38 196.85 0)
+		(at 119.38 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5552,7 +5572,7 @@
 		(dnp no)
 		(uuid "2e2f32f8-a7af-4280-a8e8-a2f2ba471a3b")
 		(property "Reference" "D2"
-			(at 115.951 201.422 90)
+			(at 121.666 196.596 0)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5560,18 +5580,17 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 119.38 196.85 90)
+		(property "Value" "GRN"
+			(at 121.412 199.39 0)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:LED-0603"
-			(at 119.38 196.85 0)
+			(at 119.38 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +5599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 196.85 0)
+			(at 119.38 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5589,7 +5608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 196.85 0)
+			(at 119.38 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,8 +5632,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 322.58 114.3 0)
+		(lib_id "power:GND")
+		(at 322.58 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5623,7 +5642,7 @@
 		(dnp no)
 		(uuid "2fe6887c-8074-4c9b-bf26-e0834f608607")
 		(property "Reference" "#GND014"
-			(at 322.58 114.3 0)
+			(at 322.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 116.84 0)
+			(at 325.12 114.3 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5641,7 +5660,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 322.58 114.3 0)
+			(at 322.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 114.3 0)
+			(at 322.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,8 +5677,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 322.58 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5766,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:R-US_0603-B-NOSILK")
-		(at 233.68 179.07 90)
+		(at 236.22 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5755,7 +5774,7 @@
 		(dnp no)
 		(uuid "38143479-5f10-4a5f-bc46-db67d8064e1f")
 		(property "Reference" "R5"
-			(at 237.744 183.134 0)
+			(at 241.046 176.276 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5764,7 +5783,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 237.744 179.324 0)
+			(at 242.824 179.07 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5773,7 +5792,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 233.68 179.07 0)
+			(at 236.22 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 179.07 0)
+			(at 236.22 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5791,7 +5810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 179.07 0)
+			(at 236.22 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,7 +5840,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3ba63093-1664-41b7-8bad-99c8aaf610ef")
 		(property "Reference" "ANT1"
@@ -5885,8 +5904,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 274.32 176.53 0)
+		(lib_id "power:GND")
+		(at 274.32 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5895,7 +5914,7 @@
 		(dnp no)
 		(uuid "3ddb8bc5-d969-433d-ae55-810033d363fa")
 		(property "Reference" "#GND011"
-			(at 274.32 176.53 0)
+			(at 274.32 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +5923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 179.07 0)
+			(at 276.86 175.26 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5913,7 +5932,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 274.32 176.53 0)
+			(at 274.32 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5922,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 176.53 0)
+			(at 274.32 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,8 +5949,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 274.32 176.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,8 +5971,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 165.1 158.75 0)
+		(lib_id "power:GND")
+		(at 165.1 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5962,7 +5981,7 @@
 		(dnp no)
 		(uuid "494427aa-0a15-49be-afb2-54392c2bf6d0")
 		(property "Reference" "#GND04"
-			(at 165.1 158.75 0)
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5999,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 165.1 158.75 0)
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 158.75 0)
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5997,8 +6016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6039,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
-		(at 274.32 166.37 0)
+		(at 274.32 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6028,7 +6047,7 @@
 		(dnp no)
 		(uuid "4a7e51fb-caa1-4542-9483-5dd5d44c807f")
 		(property "Reference" "C1"
-			(at 275.844 165.989 0)
+			(at 275.844 163.449 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6037,7 +6056,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 274.828 171.45 0)
+			(at 274.828 168.91 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6046,7 +6065,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 274.32 166.37 0)
+			(at 274.32 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 166.37 0)
+			(at 274.32 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 166.37 0)
+			(at 274.32 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,8 +6107,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
-		(at 231.14 168.91 0)
+		(lib_id "power:+3.3V")
+		(at 233.68 168.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6097,8 +6116,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51047d86-15db-4b3a-aa3b-257c8378f165")
-		(property "Reference" "#SUPPLY05"
-			(at 231.14 168.91 0)
+		(property "Reference" "#PWR05"
+			(at 233.68 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,17 +6125,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 231.14 166.116 0)
+		(property "Value" "+3.3V"
+			(at 233.68 165.354 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 231.14 168.91 0)
+		(property "Footprint" ""
+			(at 233.68 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 168.91 0)
+			(at 233.68 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,8 +6151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 231.14 168.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 233.68 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6166,7 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY05")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6224,8 +6242,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 208.28 158.75 0)
+		(lib_id "power:GND")
+		(at 208.28 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6234,7 +6252,7 @@
 		(dnp no)
 		(uuid "621912b6-24e0-4bdb-aa4c-2ee0007942c3")
 		(property "Reference" "#GND03"
-			(at 208.28 158.75 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6270,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 208.28 158.75 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 158.75 0)
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,8 +6287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 208.28 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6310,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:R-US_0603-B-NOSILK")
-		(at 233.68 116.84 90)
+		(at 236.22 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6300,7 +6318,7 @@
 		(dnp no)
 		(uuid "62acb5a5-8964-44d9-9682-5d32293fda4f")
 		(property "Reference" "R7"
-			(at 237.744 120.65 0)
+			(at 241.046 114.046 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6309,7 +6327,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 237.49 117.094 0)
+			(at 242.57 116.586 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6318,7 +6336,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 233.68 116.84 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +6345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 116.84 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6336,7 +6354,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 116.84 0)
+			(at 236.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6380,6 @@
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
 		(at 322.58 133.35 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6370,7 +6387,7 @@
 		(dnp no)
 		(uuid "68556343-c00d-4d7c-917a-835140ea09f6")
 		(property "Reference" "C12"
-			(at 321.31 133.35 0)
+			(at 323.85 133.35 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6379,7 +6396,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 322.326 138.176 0)
+			(at 323.85 138.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6439,7 +6456,7 @@
 		(dnp no)
 		(uuid "6c3c6c63-a24c-441c-86db-0ab07e5a41e2")
 		(property "Reference" "U3"
-			(at 281.94 140.97 0)
+			(at 281.94 141.224 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6448,13 +6465,12 @@
 			)
 		)
 		(property "Value" "MMC5983MA"
-			(at 302.26 124.46 0)
+			(at 282.194 144.018 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-ics:LGA-16(3X3)"
@@ -6543,7 +6559,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:R-US_0603-B-NOSILK")
-		(at 228.6 179.07 90)
+		(at 231.14 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6551,7 +6567,7 @@
 		(dnp no)
 		(uuid "6e737b6d-89e6-4bcd-b0b3-a8bd1fbb88b2")
 		(property "Reference" "R4"
-			(at 226.822 182.88 0)
+			(at 229.108 176.784 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6560,7 +6576,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 226.822 179.07 0)
+			(at 229.362 179.578 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6569,7 +6585,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 228.6 179.07 0)
+			(at 231.14 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6594,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 179.07 0)
+			(at 231.14 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +6603,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 179.07 0)
+			(at 231.14 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,7 +6628,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:R-US_0603-B-NOSILK")
-		(at 228.6 116.84 90)
+		(at 231.14 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6620,7 +6636,7 @@
 		(dnp no)
 		(uuid "750f93b3-4fb3-4758-af17-02567d4a3651")
 		(property "Reference" "R6"
-			(at 227.1014 120.65 0)
+			(at 229.616 114.554 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6629,7 +6645,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 226.822 116.84 0)
+			(at 229.616 117.094 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6638,7 +6654,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 228.6 116.84 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 116.84 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 228.6 116.84 0)
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6697,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 243.84 189.23 0)
+		(at 246.38 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6689,7 +6705,7 @@
 		(dnp no)
 		(uuid "7738be8e-49b1-4e58-a7e3-d16f2d1abeb8")
 		(property "Reference" "TP5"
-			(at 242.57 193.04 0)
+			(at 245.11 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6698,7 +6714,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 243.84 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6723,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 243.84 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 189.23 0)
+			(at 246.38 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,8 +6828,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 139.7 83.82 0)
+		(lib_id "power:GND")
+		(at 139.7 81.28 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6822,7 +6838,7 @@
 		(dnp no)
 		(uuid "8464bde2-a646-4bf9-8c2f-2ce8f91f03dc")
 		(property "Reference" "#GND0101"
-			(at 139.7 83.82 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +6856,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 139.7 83.82 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +6865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 83.82 0)
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6857,8 +6873,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 83.82 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7036,7 @@
 		(dnp yes)
 		(uuid "9904e6c8-dae1-4bc6-8e66-5234df3a5d2f")
 		(property "Reference" "R11"
-			(at 260.35 133.5786 0)
+			(at 258.572 134.112 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7029,7 +7045,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 255.27 133.35 0)
+			(at 258.826 136.906 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7080,8 +7096,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 302.26 209.55 0)
+		(lib_id "power:GND")
+		(at 302.26 207.01 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7090,7 +7106,7 @@
 		(dnp no)
 		(uuid "9d968a78-22c4-4fdd-b922-dfb0dd27d9a4")
 		(property "Reference" "#GND01"
-			(at 302.26 209.55 0)
+			(at 302.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7124,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 302.26 209.55 0)
+			(at 302.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 209.55 0)
+			(at 302.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,8 +7141,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 302.26 209.55 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 302.26 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7165,6 @@
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
 		(at 322.58 195.58 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7157,7 +7172,7 @@
 		(dnp no)
 		(uuid "9e7de13e-bc34-4634-81f0-3e02cc0fc7b0")
 		(property "Reference" "C13"
-			(at 321.31 195.58 0)
+			(at 323.85 195.58 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7166,7 +7181,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 322.58 200.66 0)
+			(at 323.85 200.66 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7217,7 +7232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 121.92 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7225,8 +7240,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a059d440-835d-4d0b-9c73-75aaf7d8c8e0")
-		(property "Reference" "#SUPPLY06"
-			(at 121.92 119.38 0)
+		(property "Reference" "#PWR06"
+			(at 121.92 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,16 +7249,15 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 121.92 116.586 0)
+		(property "Value" "+3.3V"
+			(at 121.92 115.824 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
+		(property "Footprint" ""
 			(at 121.92 119.38 0)
 			(effects
 				(font
@@ -7261,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 121.92 119.38 0)
 			(effects
 				(font
@@ -7276,15 +7290,15 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY06")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 172.72 158.75 0)
+		(lib_id "power:GND")
+		(at 172.72 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7293,7 +7307,7 @@
 		(dnp no)
 		(uuid "a099d636-5535-424f-8569-15367585222e")
 		(property "Reference" "#GND012"
-			(at 172.72 158.75 0)
+			(at 172.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7325,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 172.72 158.75 0)
+			(at 172.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 158.75 0)
+			(at 172.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,8 +7342,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 172.72 158.75 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7373,7 @@
 		(dnp no)
 		(uuid "a1129ad0-2690-4eec-9b69-0f8cb2e5c4dc")
 		(property "Reference" "U2"
-			(at 281.94 203.2 0)
+			(at 281.94 204.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7368,13 +7382,12 @@
 			)
 		)
 		(property "Value" "MMC5983MA"
-			(at 302.26 186.69 0)
+			(at 281.94 207.01 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-ics:LGA-16(3X3)"
@@ -7531,8 +7544,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 203.2 114.3 0)
+		(lib_id "power:GND")
+		(at 200.66 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7541,7 +7554,7 @@
 		(dnp no)
 		(uuid "a9096ef6-ba7a-44d3-bf8d-d8eb1ff1dd72")
 		(property "Reference" "#GND07"
-			(at 203.2 114.3 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +7563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 116.84 0)
+			(at 203.2 115.57 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7559,7 +7572,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 203.2 114.3 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +7581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 114.3 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,8 +7589,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,8 +7677,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 121.92 165.1 0)
+		(lib_id "power:GND")
+		(at 121.92 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7674,7 +7687,7 @@
 		(dnp no)
 		(uuid "b09d00f5-61b7-42e8-9778-16be138aa3d3")
 		(property "Reference" "#GND09"
-			(at 121.92 165.1 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 167.64 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7692,7 +7705,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 121.92 165.1 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 165.1 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,8 +7722,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 165.1 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,8 +7744,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 274.32 114.3 0)
+		(lib_id "power:GND")
+		(at 274.32 109.22 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7741,7 +7754,7 @@
 		(dnp no)
 		(uuid "b50c0d89-0ef5-4ca7-952e-dcc3a402302c")
 		(property "Reference" "#GND010"
-			(at 274.32 114.3 0)
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 116.84 0)
+			(at 276.86 114.3 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7759,7 +7772,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 274.32 114.3 0)
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7768,7 +7781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 114.3 0)
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,8 +7789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 274.32 114.3 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +7811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 302.26 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7806,8 +7819,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbdb6bbf-9052-45b6-ae1c-304788102340")
-		(property "Reference" "#SUPPLY03"
-			(at 302.26 96.52 0)
+		(property "Reference" "#PWR03"
+			(at 302.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7815,16 +7828,15 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 302.26 93.726 0)
+		(property "Value" "+3.3V"
+			(at 302.26 92.964 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
+		(property "Footprint" ""
 			(at 302.26 96.52 0)
 			(effects
 				(font
@@ -7842,7 +7854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 302.26 96.52 0)
 			(effects
 				(font
@@ -7857,7 +7869,7 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY03")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7942,7 +7954,7 @@
 		(dnp yes)
 		(uuid "ca24c4fa-36b2-46da-8b25-52524e205ded")
 		(property "Reference" "R12"
-			(at 260.35 195.8086 0)
+			(at 258.826 196.088 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7951,7 +7963,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 255.27 195.58 0)
+			(at 259.08 198.882 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8075,7 +8087,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cd812eda-93b6-404b-a98b-394835ee7377")
 		(property "Reference" "J2"
@@ -8206,8 +8218,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
-		(at 231.14 106.68 0)
+		(lib_id "power:+3.3V")
+		(at 233.68 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8215,8 +8227,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfd339b1-9c04-4ed9-894b-0b6ef111adab")
-		(property "Reference" "#SUPPLY04"
-			(at 231.14 106.68 0)
+		(property "Reference" "#PWR04"
+			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,17 +8236,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 231.14 103.886 0)
+		(property "Value" "+3.3V"
+			(at 233.68 103.124 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 231.14 106.68 0)
+		(property "Footprint" ""
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8243,7 +8254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 106.68 0)
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,8 +8262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 231.14 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 233.68 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8266,15 +8277,15 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY04")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 322.58 147.32 0)
+		(lib_id "power:GND")
+		(at 322.58 144.78 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8283,7 +8294,7 @@
 		(dnp no)
 		(uuid "db761baa-1ad6-4edb-b8ca-d3c4a64a7e0f")
 		(property "Reference" "#GND05"
-			(at 322.58 147.32 0)
+			(at 322.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8312,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 322.58 147.32 0)
+			(at 322.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 147.32 0)
+			(at 322.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8318,8 +8329,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 322.58 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 213.36 105.41 0)
 		(mirror y)
 		(unit 1)
@@ -8349,8 +8360,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "db8031f2-5e68-4255-bb62-4b9ea14f86df")
-		(property "Reference" "#SUPPLY07"
-			(at 213.36 105.41 0)
+		(property "Reference" "#PWR07"
+			(at 213.36 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,16 +8369,15 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 213.36 102.616 0)
+		(property "Value" "+3.3V"
+			(at 213.36 101.854 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
+		(property "Footprint" ""
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -8385,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 213.36 105.41 0)
 			(effects
 				(font
@@ -8400,7 +8410,7 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY07")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8588,8 +8598,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 322.58 176.53 0)
+		(lib_id "power:GND")
+		(at 322.58 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8598,7 +8608,7 @@
 		(dnp no)
 		(uuid "df28f93f-4733-458c-8842-68e6802ac70c")
 		(property "Reference" "#GND020"
-			(at 322.58 176.53 0)
+			(at 322.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,7 +8617,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 325.12 179.07 0)
+			(at 325.12 175.26 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8616,7 +8626,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 322.58 176.53 0)
+			(at 322.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8625,7 +8635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 322.58 176.53 0)
+			(at 322.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,8 +8643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 322.58 176.53 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,14 +8683,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 96.52 137.16 0)
+		(property "Value" "M55-7011242R"
+			(at 107.188 121.158 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:HARWIN-M55-70X1242R"
@@ -8835,7 +8844,7 @@
 	)
 	(symbol
 		(lib_id "oresat0.5-plusz-end-cap-eagle-import:C-EU0603-B-NOSILK")
-		(at 274.32 104.14 0)
+		(at 274.32 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8843,7 +8852,7 @@
 		(dnp no)
 		(uuid "ed706315-77fa-40a9-ae74-f3d549783197")
 		(property "Reference" "C2"
-			(at 275.844 103.759 0)
+			(at 275.844 102.489 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8852,7 +8861,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 275.082 109.22 0)
+			(at 275.082 107.95 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8861,7 +8870,7 @@
 			)
 		)
 		(property "Footprint" "oresat0.5-plusz-end-cap:.0603-B-NOSILK"
-			(at 274.32 104.14 0)
+			(at 274.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 104.14 0)
+			(at 274.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8879,7 +8888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 274.32 104.14 0)
+			(at 274.32 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8903,7 +8912,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 119.38 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8911,8 +8920,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1a69fc5-0dc5-4464-a92d-139c6c3c1072")
-		(property "Reference" "#SUPPLY08"
-			(at 119.38 179.07 0)
+		(property "Reference" "#PWR08"
+			(at 119.38 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,16 +8929,15 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 119.38 176.276 0)
+		(property "Value" "+3.3V"
+			(at 119.38 175.514 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
+		(property "Footprint" ""
 			(at 119.38 179.07 0)
 			(effects
 				(font
@@ -8947,7 +8955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 119.38 179.07 0)
 			(effects
 				(font
@@ -8962,15 +8970,15 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY08")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:GND")
-		(at 99.06 162.56 0)
+		(lib_id "power:GND")
+		(at 99.06 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8979,7 +8987,7 @@
 		(dnp no)
 		(uuid "f3c65e81-efd9-4fda-9b04-a1946533768e")
 		(property "Reference" "#GND024"
-			(at 99.06 162.56 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +8996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 165.1 0)
+			(at 101.6 166.37 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8997,7 +9005,7 @@
 			)
 		)
 		(property "Footprint" "oresat0-plusz-end-cap:"
-			(at 99.06 162.56 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9006,7 +9014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 162.56 0)
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,8 +9022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 162.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9044,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 190.5 106.68 0)
 		(mirror y)
 		(unit 1)
@@ -9045,8 +9053,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6b9336a-12e6-4c9c-b65e-e608544f56ed")
-		(property "Reference" "#SUPPLY01"
-			(at 190.5 106.68 0)
+		(property "Reference" "#PWR01"
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,16 +9062,15 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 190.5 103.886 0)
+		(property "Value" "+3.3V"
+			(at 190.5 103.124 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
+		(property "Footprint" ""
 			(at 190.5 106.68 0)
 			(effects
 				(font
@@ -9081,7 +9088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 190.5 106.68 0)
 			(effects
 				(font
@@ -9096,14 +9103,14 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY01")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat0.5-plusz-end-cap-eagle-import:3.3V")
+		(lib_id "power:+3.3V")
 		(at 302.26 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9111,8 +9118,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb5edc72-e8b0-4ea0-b8cf-2ba1c246dccf")
-		(property "Reference" "#SUPPLY02"
-			(at 302.26 157.48 0)
+		(property "Reference" "#PWR02"
+			(at 302.26 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,16 +9127,15 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 302.26 154.686 0)
+		(property "Value" "+3.3V"
+			(at 302.26 153.924 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Footprint" "oresat0-plusz-end-cap:"
+		(property "Footprint" ""
 			(at 302.26 157.48 0)
 			(effects
 				(font
@@ -9147,7 +9153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 302.26 157.48 0)
 			(effects
 				(font
@@ -9162,7 +9168,7 @@
 		(instances
 			(project "oresat0.5-plusz-end-cap"
 				(path "/316ea762-02e5-480d-97d9-1517b3f5ca2a"
-					(reference "#SUPPLY02")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
