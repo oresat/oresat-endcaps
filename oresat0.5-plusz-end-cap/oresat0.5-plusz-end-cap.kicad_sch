@@ -4495,6 +4495,16 @@
 		)
 		(uuid "7b9897c3-4d7f-4fb6-9fd0-d7e3a83597f6")
 	)
+	(text "Firmware: \"PZ2\""
+		(exclude_from_sim no)
+		(at 341.63 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e2ffab4-a15f-47cc-a8e2-9ee45080653d")
+	)
 	(text "+X-Y Corner"
 		(exclude_from_sim no)
 		(at 330.2 121.92 0)
@@ -4516,9 +4526,19 @@
 		)
 		(uuid "9c32aba0-136e-4c11-b700-bafe2deeb1dc")
 	)
-	(text "3.3V and I2C signals are provide by the\nADCS card. They use SPARE1 - SPARE6 on \nthe backplane, and use this 12 pin \nconnector to get from the -Z end card."
+	(text "Firmware: \"PZ1\""
 		(exclude_from_sim no)
-		(at 52.07 142.24 0)
+		(at 337.82 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8f0104f-9d37-4881-b9f0-60999bd3fcc1")
+	)
+	(text "3.3V and I2C signals are provide by the \nADCS card via the SPARE lines on the \nbackplane:\n\n   MAG-SDA = SPARE1 + SPARE2\n   MAG-SCL = SPARE3 + SPARE4 \n   MAG-PWR = SPARE5 + SPARE6.\n\nThese lines are delivered via the \n12 pin connector on the -Z end card"
+		(exclude_from_sim no)
+		(at 53.34 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -4239,9 +4239,9 @@
 		)
 		(uuid "fea15772-4d48-4ddb-8d85-da88551459c7")
 	)
-	(text "3.3V and I2C signals are provide by the \nADCS card. They use SPARE1 - SPARE6 on the\nbackplane, and use this 12 pin connector \nto get from the -Z end card."
+	(text "3.3V and I2C signals are provide by the \nADCS card via the SPARE lines on the \nbackplane:\n\n   MAG-SDA = SPARE1 + SPARE2\n   MAG-SCL = SPARE3 + SPARE4 \n   MAG-PWR = SPARE5 + SPARE6.\n\nThese lines are delivered via the \n12 pin connector on the -Z end card"
 		(exclude_from_sim no)
-		(at 41.91 124.46 0)
+		(at 48.26 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4282,6 +4282,16 @@
 			(justify left bottom)
 		)
 		(uuid "4caf6959-d1ac-4394-85c0-b3ae15b3730b")
+	)
+	(text "Firmware: \"MZ1\""
+		(exclude_from_sim no)
+		(at 339.09 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6131c9a7-85f0-4520-a49b-8f3df68172f6")
 	)
 	(text "GPS Patch Antenna w/U.FL connector\n(?? cm U.Fl to U.Fl coax to -Z end card)\n"
 		(exclude_from_sim no)
@@ -4327,6 +4337,16 @@
 			(justify left bottom)
 		)
 		(uuid "c4a12e92-f42e-409b-afa3-128c8287c305")
+	)
+	(text "Firmware: \"MZ2\""
+		(exclude_from_sim no)
+		(at 337.82 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd2eb6a0-d2a3-4cb4-a005-2644d0ae476d")
 	)
 	(label "MAG-SCL"
 		(at 101.6 116.84 0)
