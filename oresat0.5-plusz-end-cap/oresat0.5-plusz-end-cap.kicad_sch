@@ -4485,6 +4485,16 @@
 		)
 		(uuid "45d805e7-4031-49ac-85c0-2826d6cd7573")
 	)
+	(text "Stuff only if flying DxWiFi without deployable helical system."
+		(exclude_from_sim no)
+		(at 130.81 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e0f9d65-34fe-40f2-a2c2-cd76212f1eb8")
+	)
 	(text "Populate for flight? Or?"
 		(exclude_from_sim no)
 		(at 142.24 196.85 0)

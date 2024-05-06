@@ -2869,6 +2869,16 @@
 		)
 		(uuid "08ad4274-2e2d-4b42-9784-1170b71e9161")
 	)
+	(polyline
+		(pts
+			(xy 109.22 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "09bbdc07-76e5-48ed-a07b-ca878d48c817")
+	)
 	(wire
 		(pts
 			(xy 325.12 147.32) (xy 325.12 151.13)
@@ -4239,6 +4249,17 @@
 		)
 		(uuid "fea15772-4d48-4ddb-8d85-da88551459c7")
 	)
+	(text "150 mm U.Fl to U.Fl coax to -Z end card\nCinch Connectivity 415-0088-150\n"
+		(exclude_from_sim no)
+		(at 87.63 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.cinch.com/media/drawings/products/rf-microwave/cable-assemblies/cable-assembly/dr-ccs-john-415-0088-150.pdf")
+		)
+		(uuid "031429e4-4eda-48de-a7e0-b0aeb134de6e")
+	)
 	(text "3.3V and I2C signals are provide by the \nADCS card via the SPARE lines on the \nbackplane:\n\n   MAG-SDA = SPARE1 + SPARE2\n   MAG-SCL = SPARE3 + SPARE4 \n   MAG-PWR = SPARE5 + SPARE6.\n\nThese lines are delivered via the \n12 pin connector on the -Z end card"
 		(exclude_from_sim no)
 		(at 48.26 134.62 0)
@@ -4293,7 +4314,7 @@
 		)
 		(uuid "6131c9a7-85f0-4520-a49b-8f3df68172f6")
 	)
-	(text "GPS Patch Antenna w/U.FL connector\n(?? cm U.Fl to U.Fl coax to -Z end card)\n"
+	(text "GPS through hole Patch Antenna to U.FL connector\n"
 		(exclude_from_sim no)
 		(at 113.03 64.77 0)
 		(effects
@@ -4303,18 +4324,6 @@
 			(justify left bottom)
 		)
 		(uuid "72923fcc-38e2-4cc6-afce-df587d1c1f88")
-	)
-	(text "TODO: COAX LENGTH AND PART NUMBER"
-		(exclude_from_sim no)
-		(at 114.3 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e89ea61-5ec0-47e4-8361-f79b582ad71e")
 	)
 	(text "ADRS2:ADRS0 = NC\ngives address 0x94"
 		(exclude_from_sim no)
