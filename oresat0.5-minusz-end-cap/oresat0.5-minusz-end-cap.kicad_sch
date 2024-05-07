@@ -1225,8 +1225,8 @@
 			)
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -4744,7 +4744,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 325.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-12317-1-ND"
+			(at 325.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 325.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 325.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188R61C106KE13D"
 			(at 325.12 120.65 0)
 			(effects
 				(font
@@ -4772,8 +4808,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 246.38 176.53 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0b90748d-7e1e-40dd-b72d-6614588364fa")
@@ -4786,7 +4822,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 246.38 176.53 0)
 			(effects
 				(font
@@ -4813,7 +4849,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 246.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 246.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 246.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 246.38 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 246.38 176.53 0)
 			(effects
 				(font
@@ -4880,7 +4952,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.575GHz GPS Ceramic Patch RF Antenna 1.573GHz ~ 1.577GHz 2dBic Pin Adhesive"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "931-1016-ND"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taoglas Limited"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GP.1575.25.2.A.02"
 			(at 134.62 71.12 0)
 			(effects
 				(font
@@ -4905,8 +5013,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 132.08 111.76 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1cf9868d-f9f3-495f-a821-a18ae4b799a4")
@@ -4919,7 +5027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -4946,7 +5054,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 132.08 111.76 0)
 			(effects
 				(font
@@ -5012,8 +5156,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Magnetoresistive Sensor X, Y, Z Axis 16-LGA (3x3)"
 			(at 304.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1267-1072-1-ND"
+			(at 304.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 304.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Memsic"
+			(at 304.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMC5883MA"
+			(at 304.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M55-70X.pdf"
 			(at 91.44 124.46 0)
 			(effects
 				(font
@@ -5256,7 +5436,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Connector Header Surface Mount 12 position 0.050\" (1.27mm)"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "952-3875-1-ND"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Harwin"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "M55-7011242R"
 			(at 91.44 124.46 0)
 			(effects
 				(font
@@ -5367,7 +5583,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 259.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT2K70CT-ND"
+			(at 259.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 259.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 259.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K70"
 			(at 259.08 181.61 0)
 			(effects
 				(font
@@ -5502,7 +5754,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Channel I2C Bus Multiplexer"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "LTC4305IGN#PBF-ND"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Analog Devices"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTC4305IGN#PBF"
 			(at 193.04 121.92 0)
 			(effects
 				(font
@@ -5572,8 +5860,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 245.11 111.76 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "352fee6c-dc31-47cf-84d6-2c78ce104831")
@@ -5586,7 +5874,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -5613,7 +5901,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -5679,7 +6003,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 236.22 104.14 0)
 			(effects
 				(font
@@ -5772,8 +6132,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 242.57 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3cbc715a-47b7-42ad-9894-42f57972152c")
@@ -5786,7 +6146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 242.57 173.99 0)
 			(effects
 				(font
@@ -5813,7 +6173,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 242.57 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 242.57 173.99 0)
 			(effects
 				(font
@@ -5945,7 +6341,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 236.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 236.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 236.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 236.22 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 236.22 166.37 0)
 			(effects
 				(font
@@ -6014,7 +6446,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 231.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -6083,7 +6551,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 175.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 175.26 104.14 0)
 			(effects
 				(font
@@ -6218,7 +6722,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 210.82 104.14 0)
 			(effects
 				(font
@@ -6378,8 +6918,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 147.32 116.84 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5aab58c5-0bd2-4f3f-a59e-69363d3ee196")
@@ -6392,7 +6932,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -6419,7 +6959,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 147.32 116.84 0)
 			(effects
 				(font
@@ -6485,7 +7061,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 231.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 231.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 231.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 231.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 231.14 166.37 0)
 			(effects
 				(font
@@ -6620,7 +7232,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 275.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 275.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 275.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 275.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 275.59 153.67 0)
 			(effects
 				(font
@@ -6846,8 +7494,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 116.84 143.51 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7b91b646-16a1-47fc-aa36-5669fbdf7db6")
@@ -6860,7 +7508,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -6887,7 +7535,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 116.84 143.51 0)
 			(effects
 				(font
@@ -6953,7 +7637,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT2K70CT-ND"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K70"
 			(at 259.08 119.38 0)
 			(effects
 				(font
@@ -7022,7 +7742,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 198.12 96.52 0)
 			(effects
 				(font
@@ -7223,7 +7979,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 167.64 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -7292,7 +8084,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -7362,7 +8190,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 325.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 325.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 325.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 325.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 325.12 91.44 0)
 			(effects
 				(font
@@ -7456,8 +8320,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 248.92 114.3 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9ea7eb63-f367-48d4-8a14-f381a968977f")
@@ -7470,7 +8334,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 248.92 114.3 0)
 			(effects
 				(font
@@ -7497,7 +8361,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 248.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 248.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 248.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 248.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 248.92 114.3 0)
 			(effects
 				(font
@@ -7695,7 +8595,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-12317-1-ND"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188R61C106KE13D"
 			(at 124.46 142.24 0)
 			(effects
 				(font
@@ -7723,8 +8659,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 124.46 119.38 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b182ace1-26b3-485b-a646-b4576571f444")
@@ -7737,7 +8673,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
+		(property "Value" "Test-Point"
 			(at 124.46 119.38 0)
 			(effects
 				(font
@@ -7764,7 +8700,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 124.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 124.46 119.38 0)
 			(effects
 				(font
@@ -7896,7 +8868,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 275.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 275.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 275.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 275.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 275.59 91.44 0)
 			(effects
 				(font
@@ -8096,7 +9104,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 121.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT2K70CT-ND"
+			(at 121.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 121.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 121.92 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT2K70"
 			(at 121.92 173.99 0)
 			(effects
 				(font
@@ -8232,7 +9276,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 325.12 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 325.12 153.67 0)
 			(effects
 				(font
@@ -8302,7 +9382,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 325.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-12317-1-ND"
+			(at 325.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 325.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 325.12 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188R61C106KE13D"
 			(at 325.12 182.88 0)
 			(effects
 				(font
@@ -8494,7 +9610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4832/EDC3-302540-10.tif.pdf"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -8503,7 +9619,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "U.FL (UMCC) Connector Receptacle, Male Pin 50Ohm Surface Mount Solder"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "H11891CT-ND"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Hirose"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "U.FL-R-SMT-1(10)"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -8572,7 +9724,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "732-4971-1-ND"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Wurth"
+			(at 121.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "150060GS75000"
 			(at 121.92 182.88 0)
 			(effects
 				(font
@@ -8641,8 +9829,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Magnetoresistive Sensor X, Y, Z Axis 16-LGA (3x3)"
 			(at 304.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1267-1072-1-ND"
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Memsic"
+			(at 304.8 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMC5883MA"
+			(at 304.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +9976,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 210.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 210.82 137.16 0)
 			(effects
 				(font
