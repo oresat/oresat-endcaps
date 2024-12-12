@@ -1,0 +1,215 @@
+(footprint ".0603-B-NOSILK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "0603 (metric 1608) normal 'IPC-B' without silkscreen\nIn house package for nominal spacing based on IPC-7351B. This package is identical to 0603-B, but has its tPlace silkscreen layer removed.")
+	(property "Reference" "REF**"
+		(at -1.2 -0.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a3ae1da4-5fc3-42bb-beed-14ec50160235")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ".0603-B-NOSILK"
+		(at -1.2 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "404e409c-2277-46d4-990b-2a889f30d159")
+		(effects
+			(font
+				(size 0.68 0.68)
+				(thickness 0.12)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd29f92d-c0f3-447c-9c69-537650154f02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75963e50-ac0c-45ce-a461-b81d4f0a3898")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "859fdfc0-0e58-4dd5-bfe0-d4aac5442c46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.34 0.54) (xy -1.26 0.54) (xy -1.26 -0.54) (xy -0.34 -0.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "2af126f0-3298-413e-bcea-6fab4c7dc8fe")
+	)
+	(fp_poly
+		(pts
+			(xy 1.26 0.54) (xy 0.34 0.54) (xy 0.34 -0.54) (xy 1.26 -0.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "76a1adf0-a040-4afd-9ea1-06c8f48f1afd")
+	)
+	(fp_line
+		(start -1.495 -0.745)
+		(end -1.495 0.745)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60923944-f716-438e-8721-b855970e33af")
+	)
+	(fp_line
+		(start -1.495 0.745)
+		(end 1.495 0.745)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eda188ca-523a-41bc-9b74-5781b69e9055")
+	)
+	(fp_line
+		(start 1.495 -0.745)
+		(end -1.495 -0.745)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c423f96e-c740-4238-a561-2e08e9143e5d")
+	)
+	(fp_line
+		(start 1.495 0.745)
+		(end 1.495 -0.745)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0ad8482-b19f-460f-9ce5-d8f6432bd97a")
+	)
+	(fp_line
+		(start -0.8 0.41)
+		(end -0.8 -0.41)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "995942bc-e005-4084-a367-51c443b6df3c")
+	)
+	(fp_line
+		(start -0.79 -0.4)
+		(end 0.79 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0690e57-6816-4c98-a24f-e54b06a3944e")
+	)
+	(fp_line
+		(start 0.79 0.4)
+		(end -0.79 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43758dd6-ff90-495a-b080-3b0b3eb85eb6")
+	)
+	(fp_line
+		(start 0.8 -0.41)
+		(end 0.8 0.41)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0899cbf-e678-41f0-a398-809d3b632b6e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.555 0.4) (xy -0.35 0.4) (xy -0.35 -0.4) (xy -0.555 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "37d4c513-cef3-457e-bfd5-636c4ea67500")
+	)
+	(fp_poly
+		(pts
+			(xy 0.35 0.4) (xy 0.555 0.4) (xy 0.555 -0.4) (xy 0.35 -0.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "1f997e68-0d32-40ac-914d-6bcbdd6ae758")
+	)
+	(pad "1" smd roundrect
+		(at -0.8 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "a51c6cc4-cd29-4ba4-8b5a-bc7525e224da")
+	)
+	(pad "2" smd roundrect
+		(at 0.8 0)
+		(size 0.8 0.95)
+		(layers "F.Cu" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.0635)
+		(thermal_bridge_angle 0)
+		(uuid "dd70ddc3-9a21-4e8a-8a7e-39dde0f712f3")
+	)
+)

@@ -1,6 +1,6 @@
 # "End Cap" PCBs for OreSat
 
-These are the "end cap" PCBs that attach to the +Z and -Z ends of the satellites. Mostly these are to protect the end cards from "space", as well as to hold the magnetometers (two per end cap) as far as away from ferrous stuff as possible. It's also a good place for backup antennas, specifically patch antennas (S band and L1).
+These are the "end cap" PCBs that attach to the +Z and -Z ends of the satellites. Mostly these are to protect the end cards from "space", as well as to hold the magnetometers (two per end cap) as far as away from ferrous stuff as possible. It's also a good place for backup antennas, specifically patch antennas (S band and GPS L1).
 
 ## Features
 
@@ -15,7 +15,7 @@ These are the "end cap" PCBs that attach to the +Z and -Z ends of the satellites
 
 ## LICENSE
 
-Copyright the Portland State Aerospace Society, 2022.
+Copyright the Portland State Aerospace Society, 2024.
 
 This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
 
