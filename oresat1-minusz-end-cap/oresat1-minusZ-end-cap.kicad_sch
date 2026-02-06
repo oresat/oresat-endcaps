@@ -5,7 +5,7 @@
 	(uuid "a215d645-9bfd-4c32-85ab-cbfb5aea6fd4")
 	(paper "B")
 	(title_block
-		(title "OreSat1 +Z End Cap")
+		(title "OreSat1 -Z End Cap")
 		(date "2026-01-21")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
