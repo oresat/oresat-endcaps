@@ -17378,6 +17378,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Backup S Band Patch Antenna"
+		(at 186.375 95.7 0)
+		(layer "F.SilkS")
+		(uuid "8f76fb0a-8d1d-4c80-b0af-0b849a08857f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3.3V"
 		(at 117.75 60.275 0)
 		(layer "F.SilkS")
