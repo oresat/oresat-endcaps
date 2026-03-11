@@ -3196,7 +3196,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Firmware: \"MZ2\""
+	(text "Firmware: \"PZ2\""
 		(exclude_from_sim no)
 		(at 289.56 62.23 0)
 		(effects
@@ -3216,9 +3216,9 @@
 		)
 		(uuid "20caec19-055f-4cc5-8b75-120b28f023a4")
 	)
-	(text "-X+Y Corner"
+	(text "+Z-X+Y Corner"
 		(exclude_from_sim no)
-		(at 281.94 59.69 0)
+		(at 280.67 59.69 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -3226,6 +3226,17 @@
 			(justify left bottom)
 		)
 		(uuid "321c7d46-e90c-4a2e-a438-c8aac6f8f2c0")
+	)
+	(text "U.Fl to U.Fl coax through hole to +Z End Card\nE.g., Cinch Connectivity 415-0088-100\n"
+		(exclude_from_sim no)
+		(at 110.998 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.cinch.com/media/drawings/products/rf-microwave/cable-assemblies/cable-assembly/dr-ccs-john-415-0088-150.pdf")
+		)
+		(uuid "3593cddb-6696-4d9c-810e-82fccbfc1c7d")
 	)
 	(text "Front Fiducials"
 		(exclude_from_sim no)
@@ -3258,7 +3269,7 @@
 		)
 		(uuid "4ab4591b-0c33-445e-ad41-c291cc7f0d31")
 	)
-	(text "3.3V and I2C signals are provide by the \nADCS card via the SPARE lines on the \nbackplane:\n\n   MAG-SDA = SPARE1 + SPARE2\n   MAG-SCL = SPARE3 + SPARE4 \n   MAG-PWR = SPARE5 + SPARE6.\n\nThese lines are delivered via the \n12 pin connector on the -Z end card"
+	(text "3.3V and I2C signals are provide by the \nMag card via the SPARE lines on the \nbackplane:\n\n   MAG-SDA = SPARE1 + SPARE2\n   MAG-SCL = SPARE3 + SPARE4 \n   MAG-PWR = SPARE5 + SPARE6.\n\nThese lines are delivered via the \n12 pin connector on the -Z end card"
 		(exclude_from_sim no)
 		(at 104.14 130.81 0)
 		(effects
@@ -3289,7 +3300,7 @@
 		)
 		(uuid "72ca7381-e2b7-4eae-aad2-d4eae41e9180")
 	)
-	(text "Firmware: \"MZ1\""
+	(text "Firmware: \"PZ1\""
 		(exclude_from_sim no)
 		(at 290.83 156.21 0)
 		(effects
@@ -3299,9 +3310,9 @@
 		)
 		(uuid "940ff9e1-8aac-43cb-9adb-d84e36443a70")
 	)
-	(text "+X-Y Corner"
+	(text "+Z+X-Y Corner"
 		(exclude_from_sim no)
-		(at 281.94 153.67 0)
+		(at 280.416 153.924 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -3310,9 +3321,9 @@
 		)
 		(uuid "b788c6c1-c027-4b91-8c18-5a6a7a3a9ff1")
 	)
-	(text "Backup S Band antenna"
+	(text "Backup S Band patch antenna"
 		(exclude_from_sim no)
-		(at 156.718 61.214 0)
+		(at 159.766 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4232,6 +4243,16 @@
 			(type default)
 		)
 		(uuid "6b5bc3de-d58a-41db-b343-898254871656")
+	)
+	(polyline
+		(pts
+			(xy 134.62 76.2) (xy 146.05 76.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6c9a037e-246d-47d1-be72-ced87376df32")
 	)
 	(wire
 		(pts
