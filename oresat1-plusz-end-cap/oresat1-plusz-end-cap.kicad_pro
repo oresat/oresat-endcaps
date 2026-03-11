@@ -61,16 +61,24 @@
       ],
       "drc_exclusions": [
         [
-          "footprint_type_mismatch|191900000|88600000|8bcaaa21-bcbf-4978-a56f-185af8c05fe5|00000000-0000-0000-0000-000000000000",
-          "Change in board-- Do Not Update"
+          "courtyards_overlap|189405000|77002100|00bb3e8d-0d4f-411b-8c77-8160cef53efe|7a53ecea-9db4-4baa-abec-ea315c0cded7",
+          ""
         ],
         [
-          "items_not_allowed|108470000|81800000|bb38a332-c5a7-4127-928d-2df7f9323b70|00000000-0000-0000-0000-000000000000",
+          "items_not_allowed|108455394|80835394|58cfba9f-bcea-472b-935f-5d213b00a0c6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|108470000|81325000|9c05c473-6c2b-4636-b2c0-e7fd02d3300c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "items_not_allowed|108470000|81800000|ca823a4a-792f-4d89-928a-0862a83a4687|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "items_not_allowed|109246904|79705000|9268b358-1340-43a8-b48a-29ede26bf513|00000000-0000-0000-0000-000000000000",
-          "it is what it is"
+          ""
         ],
         [
           "items_not_allowed|121698939|154949180|160c40ba-3ee0-4bcb-9203-bac44aba3aae|00000000-0000-0000-0000-000000000000",
@@ -141,43 +149,11 @@
           ""
         ],
         [
-          "silk_over_copper|104115000|81136500|db62af7b-373d-4bd2-806b-7adfd6df6707|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|180835666|146790616|cfb73610-3b94-4d1d-96c6-37cb0cfcc4a6|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_over_copper|104983500|71050000|1e3652a4-ee88-4929-886f-6b21e32db076|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|104983500|81210000|4ff36281-2781-4131-bc78-4c52f44abae4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|105990249|81212930|1c580dbc-6be9-4de6-8662-e39c7bec2492|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|106049751|71047070|d308cde2-672c-4bac-9484-4b729b286f34|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|186380000|82550000|7db0db18-7e84-4ab9-9926-56f2909fd7b3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|186400000|82605000|b67ac4bc-262f-4908-8920-9dae47e01c0a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|188800000|94595000|0428a248-de06-4f3d-9e22-70818d8c1fc6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|195000000|82605000|4bd3d7a6-9b1e-4da0-9e82-a520b9a4f8c2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|197895000|91700000|5a922c63-9b06-479d-a514-8cebe6d2be94|00000000-0000-0000-0000-000000000000",
+          "text_thickness|149150000|148675000|10ecd2d3-75ac-4631-a288-cd29f85422a9|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -406,7 +382,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2463800|1866900|77317474-584d-4a2e-9daf-843113fb2425|2efdb0db-80a7-4edc-8c37-c084f82e95fd|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a",
+        ""
+      ],
+      [
+        "pin_to_pin|2463800|1892300|032cf4fd-41db-453d-a630-dc4a6bfeb23a|2efdb0db-80a7-4edc-8c37-c084f82e95fd|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a",
+        ""
+      ],
+      [
+        "pin_to_pin|2463800|889000|1ff0442e-a1a1-4846-a7bc-c3325bd1e8e0|2efdb0db-80a7-4edc-8c37-c084f82e95fd|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a",
+        ""
+      ],
+      [
+        "pin_to_pin|2463800|914400|b30d27d6-f2ba-49e0-9792-b09500cb1009|45480602-e6cc-449c-8143-e0b959b5adfa|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -621,6 +614,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -709,7 +703,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "oresat1-plusz-end-cap.step",
       "svg": "",
       "vrml": ""
     },
@@ -728,7 +722,198 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MFR",
+            "name": "MFR",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DST",
+            "name": "DST",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DPN",
+            "name": "DPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pins",
+            "name": "Sim.Pins",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DIS",
+            "name": "DIS",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "bom-export-preset",
+        "sort_asc": true,
+        "sort_field": "${ITEM_NUMBER}"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFR",
+            "name": "MFR",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DST",
+            "name": "DST",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DPN",
+            "name": "DPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pins",
+            "name": "Sim.Pins",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DIS",
+            "name": "DIS",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "bom-preset",
+        "sort_asc": true,
+        "sort_field": "${ITEM_NUMBER}"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -736,7 +921,7 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -748,7 +933,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -760,6 +945,12 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {
@@ -776,12 +967,6 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "DST",
           "name": "DST",
           "show": true
@@ -794,15 +979,27 @@
         },
         {
           "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIS",
+          "name": "DIS",
+          "show": false
         }
       ],
       "filter_string": "",
