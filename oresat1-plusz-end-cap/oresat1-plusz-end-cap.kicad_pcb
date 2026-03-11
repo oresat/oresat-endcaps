@@ -2336,7 +2336,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd board_only exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 2.494032 -0.156696) (xy 2.496294 -0.154374) (xy 2.498356 -0.152132) (xy 2.500226 -0.149954)
@@ -5166,7 +5166,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 4.947234 0)
