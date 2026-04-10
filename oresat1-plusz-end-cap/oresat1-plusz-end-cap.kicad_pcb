@@ -19666,19 +19666,6 @@
 			)
 		)
 	)
-	(gr_text "${ISSUE_DATE}"
-		(at 78.61 216.41 0)
-		(layer "B.SilkS")
-		(uuid "1f8867a8-8292-4639-8123-9ff94987185d")
-		(effects
-			(font
-				(size 3 3)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(via
 		(at 139.17 58.71)
 		(size 0.508)
