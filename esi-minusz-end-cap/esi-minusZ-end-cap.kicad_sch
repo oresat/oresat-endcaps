@@ -1106,7 +1106,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "MP"
 						(effects
 							(font
 								(size 0 0)
@@ -5302,7 +5302,7 @@
 		(pin "9"
 			(uuid "faad6e1e-b744-42e3-89ce-c3dd2ee75bc0")
 		)
-		(pin "SH"
+		(pin "MP"
 			(uuid "dbfddde1-792d-4bbe-b176-9edec33700ab")
 		)
 		(instances
