@@ -5339,7 +5339,7 @@
 		(dnp no)
 		(uuid "223af538-a13f-40d2-86ee-23576fe1a2d7")
 		(property "Reference" "R7"
-			(at 262.382 194.31 0)
+			(at 262.382 193.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5349,7 +5349,7 @@
 			)
 		)
 		(property "Value" "121"
-			(at 266.192 194.31 0)
+			(at 266.192 193.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
