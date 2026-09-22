@@ -1216,7 +1216,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 21.082 1.27 0)
+				(at 30.48 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1273,11 +1273,11 @@
 					(start 12.7 27.94)
 					(end 34.29 -21.59)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -1318,7 +1318,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 10.16 3.81 0)
 					(length 2.54)
 					(name "SSN/SA0"
@@ -1661,7 +1661,7 @@
 					)
 				)
 				(pin input line
-					(at 25.4 30.48 270)
+					(at 27.94 30.48 270)
 					(length 2.54)
 					(name "I2C"
 						(effects
@@ -1768,10 +1768,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 10.16 1.27 0)
 					(length 2.54)
-					(name "MISO"
+					(name "MISO/SA1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2654,12 +2654,6 @@
 		(uuid "198bbc7e-bf85-4e29-aaaa-d57bf089e231")
 	)
 	(junction
-		(at 245.11 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1abe3824-654e-45c1-800f-fc8da36d948c")
-	)
-	(junction
 		(at 229.87 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2694,6 +2688,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31ca70ee-48aa-4237-9c37-caad76875f4c")
+	)
+	(junction
+		(at 245.11 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ae8f56d-35e9-4307-8c19-5dd032f589f2")
 	)
 	(junction
 		(at 240.03 40.64)
@@ -2750,12 +2750,6 @@
 		(uuid "98522307-555a-4926-929b-29d8dd9ba76b")
 	)
 	(junction
-		(at 245.11 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9acc8c45-43e0-4dbc-bf60-177e245b296b")
-	)
-	(junction
 		(at 163.83 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2796,6 +2790,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0a0fa7b-7efc-4b7f-ae9c-a2eb5dd413ee")
+	)
+	(junction
+		(at 245.11 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7de9307-5fcf-4c49-ac99-b49f8d9d4041")
 	)
 	(junction
 		(at 214.63 138.43)
@@ -3101,7 +3101,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 138.43) (xy 245.11 138.43)
+			(xy 250.19 138.43) (xy 245.11 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3611,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 54.61) (xy 247.65 40.64)
+			(xy 250.19 54.61) (xy 250.19 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 152.4) (xy 247.65 138.43)
+			(xy 250.19 152.4) (xy 250.19 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 40.64) (xy 247.65 40.64)
+			(xy 245.11 40.64) (xy 250.19 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8424,10 +8424,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95488bcf-fd9f-48d9-93fc-de7a5b7304fe")
 		(property "Reference" "U2"
-			(at 249.7933 149.86 0)
+			(at 250.952 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8438,7 +8437,7 @@
 			)
 		)
 		(property "Value" "RM3100"
-			(at 249.7933 152.4 0)
+			(at 250.952 151.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9712,10 +9711,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c91b25a9-3ca9-41f2-b535-a589bf30fa66")
 		(property "Reference" "U1"
-			(at 249.7933 52.07 0)
+			(at 251.714 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9726,7 +9724,7 @@
 			)
 		)
 		(property "Value" "RM3100"
-			(at 249.7933 54.61 0)
+			(at 251.714 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
