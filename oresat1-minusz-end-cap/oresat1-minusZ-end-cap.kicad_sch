@@ -2539,6 +2539,16 @@
 		)
 		(uuid "7cc20cbe-427c-4833-88b3-7e03157ba329")
 	)
+	(text "Z-axis inverted to compensate for position in satellite"
+		(exclude_from_sim no)
+		(at 302.26 197.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8745aa65-6e00-4e12-995a-4796ebc263b7")
+	)
 	(text "MAG-PWR"
 		(exclude_from_sim no)
 		(at 148.59 107.95 0)
@@ -2570,6 +2580,16 @@
 			(justify left bottom)
 		)
 		(uuid "8e03ccaa-c6a3-4199-86c7-09d02bd90b83")
+	)
+	(text "Z-axis inverted to compensate for position in satellite"
+		(exclude_from_sim no)
+		(at 302.514 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fb62955-e2fd-4b4d-8c94-5e4eb0ed6251")
 	)
 	(text "DRVP/DRVN TRACES MUST BE EXACT EQUAL LENGTH PER SENSOR COUPLE"
 		(exclude_from_sim no)
@@ -6466,7 +6486,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 274.32 193.04 0)
+		(at 274.32 193.04 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6484,7 +6504,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SEN2-Z (z-axis)"
@@ -6495,7 +6515,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-misc:RM3100 SEN-Z-f"
@@ -10695,7 +10715,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 274.32 95.25 0)
+		(at 274.32 95.25 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10713,7 +10733,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SEN1-Z (z-axis)"
@@ -10724,7 +10744,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "oresat-misc:RM3100 SEN-Z-f"

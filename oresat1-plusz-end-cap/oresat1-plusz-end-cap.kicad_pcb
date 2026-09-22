@@ -6882,7 +6882,7 @@
 		(at 182.1 67.7 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R6"
-			(at -2.155 -0.14 90)
+			(at -1.175 0.25 90)
 			(layer "B.SilkS")
 			(uuid "1b8b9c9a-a765-42d1-b9cc-c69b02ec7e2d")
 			(effects
@@ -7156,7 +7156,7 @@
 		(at 109.9 149.25 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C5"
-			(at -0.548 0.5645 90)
+			(at 2.2 0.225 90)
 			(layer "B.SilkS")
 			(uuid "27ee2cbe-e29d-4be7-906d-81c75adc3a95")
 			(effects
@@ -7415,7 +7415,7 @@
 		(at 115.67 144.05 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R10"
-			(at -1.64 0.6875 90)
+			(at -0.075 1.195 90)
 			(layer "B.SilkS")
 			(uuid "db6e62e2-c8e6-41e8-a675-a8223059aae6")
 			(effects
@@ -7689,7 +7689,7 @@
 		(at 186.95 72.95 180)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R8"
-			(at 0.25 -1.6 90)
+			(at -1.25 -0.45 180)
 			(layer "B.SilkS")
 			(uuid "c33a83d9-d83f-4c2f-9645-1d5a9487cab8")
 			(effects
@@ -8064,7 +8064,7 @@
 		(at 115.61 146.96 90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R11"
-			(at -2.69 -0.2575 90)
+			(at -1.29 0.415 90)
 			(layer "B.SilkS")
 			(uuid "492c7d8d-74ef-48b7-9874-378ff7441814")
 			(effects
@@ -8755,7 +8755,7 @@
 		(at 188.43 70.185 90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R3"
-			(at -2.29 -0.25 90)
+			(at -1.315 -0.53 180)
 			(layer "B.SilkS")
 			(uuid "e3dfb656-d694-489a-b899-2b45340e3095")
 			(effects
@@ -9515,12 +9515,6 @@
 		(path "/4ab14c28-9be2-4985-9852-24ade39a2bf7")
 		(sheetname "/")
 		(sheetfile "oresat1-plusz-end-cap.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9542,6 +9536,17 @@
 			)
 			(layer "B.SilkS")
 			(uuid "726bd93b-7b51-4279-b04b-c3de19f88133")
+		)
+		(fp_circle
+			(center -4 -0.5)
+			(end -4.3 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "7e3d3d1c-2461-4939-b6c5-580348264219")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -5.5 270)
@@ -9597,7 +9602,7 @@
 		(at 113.35 150.1 180)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R9"
-			(at -1.175 -1.15 0)
+			(at -0.625 -0.75 0)
 			(layer "B.SilkS")
 			(uuid "98630267-7fa8-4f6f-bb49-ec2567462d50")
 			(effects
@@ -10454,7 +10459,7 @@
 		(at 109.05 147.05 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C7"
-			(at 1.068 -0.3285 90)
+			(at 1.05 0.075 90)
 			(layer "B.SilkS")
 			(uuid "d98a4a9b-fa9f-4242-9497-498c3967acd7")
 			(effects
@@ -11113,12 +11118,6 @@
 		(path "/ed6244c1-27e5-458a-bfc0-499342c9f991")
 		(sheetname "/")
 		(sheetfile "oresat1-plusz-end-cap.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11140,6 +11139,17 @@
 			)
 			(layer "B.SilkS")
 			(uuid "f75ed1e6-d103-4257-9db7-dff8fab70e8b")
+		)
+		(fp_circle
+			(center -4 -0.5)
+			(end -4.3 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill yes)
+			(layer "B.SilkS")
+			(uuid "207215c9-d95f-41e5-ae6b-6142484de6eb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -5.5 270)
@@ -11195,7 +11205,7 @@
 		(at 117.54 142.08)
 		(descr "<b>0805 (metric 2012) tight 'IPC-C' wilthout silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0805-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C3"
-			(at 0.9275 -0.93 0)
+			(at 0.41 -0.88 0)
 			(layer "B.SilkS")
 			(uuid "f01cd247-fe22-4254-b69c-f25c1ed26f22")
 			(effects
@@ -11454,7 +11464,7 @@
 		(at 184.75 72.95 180)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C1"
-			(at -0.48 0.58 0)
+			(at 2.15 -0.075 0)
 			(layer "B.SilkS")
 			(uuid "7d8f4746-9ae3-4f2c-8c35-c84c645cf9a0")
 			(effects
@@ -11713,7 +11723,7 @@
 		(at 116.9 59.9 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R2"
-			(at 0.275 -1.625 0)
+			(at 0.275 -1.85 0)
 			(layer "B.SilkS")
 			(uuid "1ae085c9-1a6a-4fc1-af10-1a30764137b1")
 			(effects
@@ -12469,7 +12479,7 @@
 		(at 109.44 144.84 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R14"
-			(at 1.12 0.8775 0)
+			(at 0.46 2.115 0)
 			(layer "B.SilkS")
 			(uuid "a0cb8e43-644d-47f9-a01c-d0d000abbd54")
 			(effects
@@ -13656,7 +13666,7 @@
 		(at 183.8 66.1)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R7"
-			(at 1.795 -0.49 90)
+			(at 1.875 -0.375 90)
 			(layer "B.SilkS")
 			(uuid "a1349ce7-9db7-4d6f-9c73-d204ed62ee51")
 			(effects
@@ -13929,7 +13939,7 @@
 		(uuid "de89aed0-a0ee-4a2d-91e9-fda80a51ebff")
 		(at 185.41 69.26 90)
 		(property "Reference" "U2"
-			(at -2.8 1.92 90)
+			(at -2.79 0.215 180)
 			(layer "B.SilkS")
 			(uuid "91bbb059-051e-4ccb-a218-9512a9c43f46")
 			(effects
@@ -14844,7 +14854,7 @@
 		(at 181.3 69.4 180)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C4"
-			(at 1.075 -0.37 0)
+			(at -0.275 -1.275 0)
 			(layer "B.SilkS")
 			(uuid "a829d1e3-9ec4-4bf0-b0fb-d60f30e2b411")
 			(effects
@@ -15378,7 +15388,7 @@
 		(at 192.7 66.1 -90)
 		(descr "<b>0805 (metric 2012) tight 'IPC-C' wilthout silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0805-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C2"
-			(at 1.64 0 90)
+			(at 0.675 -0.975 90)
 			(layer "B.SilkS")
 			(uuid "b0a1cae9-9a99-4b34-a53b-c4e9b0203c5d")
 			(effects
@@ -15637,7 +15647,7 @@
 		(at 110.9175 142.875)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R15"
-			(at -2.6625 -0.315 0)
+			(at -1.0675 -0.725 90)
 			(layer "B.SilkS")
 			(uuid "6e965c3b-e535-47c6-b9d6-8590fd849ca8")
 			(effects
@@ -15911,7 +15921,7 @@
 		(at 111.59 141.7)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "R12"
-			(at -2.6475 -0.275 0)
+			(at -1.715 -1 90)
 			(layer "B.SilkS")
 			(uuid "20b4fd9c-3831-493e-be0f-fd9bd33e23cc")
 			(effects
