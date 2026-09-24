@@ -167,15 +167,11 @@
           ""
         ],
         [
-          "silk_edge_clearance|107201956|146245469|4ac9705b-89bb-4149-9b49-979ff3cfd4f0|207215c9-d95f-41e5-ae6b-6142484de6eb",
+          "silk_over_copper|192224500|66624500|9c24de7b-8529-4b55-9603-e5201ae71d7f|4c5d7c58-efcf-4228-8589-3722ec2c9cd1",
           ""
         ],
         [
-          "silk_over_copper|109140000|144000000|f75ed1e6-d103-4257-9db7-dff8fab70e8b|1fcba59e-cfa1-4727-9bda-3a462c874254",
-          ""
-        ],
-        [
-          "silk_overlap|176483129|146088691|10ecd2d3-75ac-4631-a288-cd29f85422a9|96f2cc95-8f50-4bbc-ade7-be720e0caa9e",
+          "text_thickness|149150000|148675000|10ecd2d3-75ac-4631-a288-cd29f85422a9|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -237,7 +233,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -1016,8 +1012,8 @@
         },
         {
           "group_by": false,
-          "label": "DST",
-          "name": "DST",
+          "label": "DIS",
+          "name": "DIS",
           "show": true
         },
         {
@@ -1042,12 +1038,6 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DIS",
-          "name": "DIS",
           "show": false
         }
       ],
@@ -1117,7 +1107,7 @@
         "uuid": "316ea762-02e5-480d-97d9-1517b3f5ca2a"
       }
     ],
-    "used_designators": "R16-19",
+    "used_designators": "#VBAT6,#PWR15,R16-23",
     "variants": []
   },
   "sheets": [
