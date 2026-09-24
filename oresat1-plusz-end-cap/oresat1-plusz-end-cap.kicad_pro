@@ -165,6 +165,18 @@
         [
           "lib_footprint_mismatch|99000000|77500000|419287f2-37dd-4f54-ad0f-7c9fe7ebfdfe|00000000-0000-0000-0000-000000000000",
           ""
+        ],
+        [
+          "silk_edge_clearance|107201956|146245469|4ac9705b-89bb-4149-9b49-979ff3cfd4f0|207215c9-d95f-41e5-ae6b-6142484de6eb",
+          ""
+        ],
+        [
+          "silk_over_copper|109140000|144000000|f75ed1e6-d103-4257-9db7-dff8fab70e8b|1fcba59e-cfa1-4727-9bda-3a462c874254",
+          ""
+        ],
+        [
+          "silk_overlap|176483129|146088691|10ecd2d3-75ac-4631-a288-cd29f85422a9|96f2cc95-8f50-4bbc-ade7-be720e0caa9e",
+          ""
         ]
       ],
       "meta": {

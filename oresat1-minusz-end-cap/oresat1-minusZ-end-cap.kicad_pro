@@ -796,7 +796,7 @@
         "uuid": "a215d645-9bfd-4c32-85ab-cbfb5aea6fd4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R16-19,#PWR15,#VBAT6",
     "variants": []
   },
   "sheets": [

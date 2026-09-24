@@ -1501,11 +1501,11 @@
 					(start 12.7 27.94)
 					(end 34.29 -21.59)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -2195,11 +2195,11 @@
 					(start 12.7 27.94)
 					(end 34.29 -21.59)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
@@ -3651,6 +3651,12 @@
 		(uuid "2d83d6c8-04b7-4fd0-b17e-c2e01a0c2c57")
 	)
 	(junction
+		(at 222.25 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3147c597-07c9-43cd-b75e-7093cf76a724")
+	)
+	(junction
 		(at 162.56 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3703,6 +3709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "526bcd52-5279-4c7f-ad7c-85cc370ff7b1")
+	)
+	(junction
+		(at 214.63 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b11cabe-af0c-4f21-8578-7bbfcb19d6fe")
 	)
 	(junction
 		(at 217.17 99.06)
@@ -3765,6 +3777,12 @@
 		(uuid "9ac5837c-142d-4967-91a9-bcf306307d84")
 	)
 	(junction
+		(at 218.44 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4fb1178-b742-45bb-bcd0-be55534ddae3")
+	)
+	(junction
 		(at 243.84 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3805,6 +3823,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af93c965-af51-4827-82f6-a195b41889d9")
+	)
+	(junction
+		(at 218.44 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0d0cbb-a31a-47c1-878d-1e8b5733c185")
 	)
 	(junction
 		(at 237.49 48.26)
@@ -3968,6 +3992,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 76.2) (xy 222.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f433ba8-2c69-4e46-a178-adb5c256aae3")
+	)
+	(wire
+		(pts
 			(xy 273.05 173.99) (xy 283.21 173.99)
 		)
 		(stroke
@@ -3998,7 +4032,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 91.44) (xy 234.95 91.44)
+			(xy 246.38 91.44) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4138,6 +4172,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 96.52) (xy 205.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f3bbb0-e069-466d-89d2-4fcab7abf0b8")
+	)
+	(wire
+		(pts
 			(xy 259.08 128.27) (xy 261.62 128.27)
 		)
 		(stroke
@@ -4168,6 +4212,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31eb31d8-0574-46d1-b0eb-67c9d9c64814")
+	)
+	(wire
+		(pts
 			(xy 256.54 146.05) (xy 256.54 160.02)
 		)
 		(stroke
@@ -4185,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "32be2560-845e-48c0-ba48-7915e8d117e4")
+	)
+	(wire
+		(pts
+			(xy 214.63 64.77) (xy 218.44 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348d0590-c7dc-4a0e-804f-02394286b80b")
 	)
 	(wire
 		(pts
@@ -4368,6 +4432,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 88.9) (xy 222.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53376b14-c8af-4212-8721-a59b3e286c2a")
+	)
+	(wire
+		(pts
 			(xy 185.42 97.79) (xy 185.42 99.06)
 		)
 		(stroke
@@ -4385,6 +4459,16 @@
 			(type default)
 		)
 		(uuid "56644021-b2ff-4098-bdba-5ffca7b79e49")
+	)
+	(wire
+		(pts
+			(xy 231.14 91.44) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d62383-abfc-4fb6-9eb9-7b165c853d97")
 	)
 	(wire
 		(pts
@@ -4488,6 +4572,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 74.93) (xy 222.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686f50ad-a85e-44ff-a7b2-02ff98dc59d0")
+	)
+	(wire
+		(pts
 			(xy 231.14 189.23) (xy 246.38 189.23)
 		)
 		(stroke
@@ -4518,13 +4612,13 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 88.9) (xy 231.14 92.71)
+			(xy 231.14 88.9) (xy 231.14 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70d25bcd-9148-446b-9cd6-8a2e906624bd")
+		(uuid "6fb88a72-810c-4f80-b7dd-438eb21f9cc6")
 	)
 	(wire
 		(pts
@@ -4625,6 +4719,16 @@
 			(type default)
 		)
 		(uuid "82dc80f3-16fa-4fb8-b595-190789089e32")
+	)
+	(wire
+		(pts
+			(xy 214.63 76.2) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ce9e4d-4d48-4261-86a0-3deec5228875")
 	)
 	(wire
 		(pts
@@ -4815,6 +4919,26 @@
 			(type default)
 		)
 		(uuid "9d173155-ed05-451e-bedd-cc4ec71ef59b")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e48157b-4648-4f75-b9fe-5d84441ee15d")
+	)
+	(wire
+		(pts
+			(xy 205.74 76.2) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6e4c25-f33a-4fb9-af92-48f757296ed1")
 	)
 	(wire
 		(pts
@@ -5138,6 +5262,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 88.9) (xy 218.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16d8ca7-ca7c-4970-95f9-2dfd22dbbb79")
+	)
+	(wire
+		(pts
 			(xy 246.38 50.8) (xy 246.38 48.26)
 		)
 		(stroke
@@ -5228,16 +5362,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 91.44) (xy 234.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3691e70-c406-4fd0-b885-b5e18bac64c7")
-	)
-	(wire
-		(pts
 			(xy 256.54 48.26) (xy 254 48.26)
 		)
 		(stroke
@@ -5325,6 +5449,16 @@
 			(type default)
 		)
 		(uuid "ecefa0c6-6682-4e29-9e8c-86c0c3dc70cc")
+	)
+	(wire
+		(pts
+			(xy 231.14 96.52) (xy 205.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed6a6ace-77ad-4ef2-afae-2cfcfae7eca6")
 	)
 	(wire
 		(pts
@@ -5425,6 +5559,16 @@
 			(type default)
 		)
 		(uuid "ff4d595f-f494-4aea-9782-b792e62ac75a")
+	)
+	(wire
+		(pts
+			(xy 218.44 64.77) (xy 222.25 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffeaf889-a1f5-4c38-a90b-9e88fd616689")
 	)
 	(label "MAG-SDA"
 		(at 162.56 105.41 0)
@@ -5835,17 +5979,17 @@
 	)
 	(symbol
 		(lib_id "oresat-passives:R-US")
-		(at 214.63 78.74 180)
+		(at 214.63 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "11e104ee-ccc1-4a0a-a50d-0471442add86")
 		(property "Reference" "R18"
-			(at 212.598 75.184 0)
+			(at 211.074 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5855,7 +5999,7 @@
 			)
 		)
 		(property "Value" "121"
-			(at 216.916 75.184 0)
+			(at 211.074 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5865,7 +6009,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +6020,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,7 +6031,7 @@
 			)
 		)
 		(property "Description" "121 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5898,7 +6042,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5909,7 +6053,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT121RCT-ND"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5920,7 +6064,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,7 +6075,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5942,7 +6086,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 214.63 78.74 0)
+			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6613,7 @@
 		(dnp no)
 		(uuid "223af538-a13f-40d2-86ee-23576fe1a2d7")
 		(property "Reference" "R7"
-			(at 276.352 201.93 0)
+			(at 276.225 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6479,7 +6623,7 @@
 			)
 		)
 		(property "Value" "121"
-			(at 280.162 201.93 0)
+			(at 280.035 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8557,7 +8701,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 92.71 0)
+		(at 218.44 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8567,7 +8711,7 @@
 		(dnp no)
 		(uuid "5e1e5ff9-ac0a-49ff-83fd-a83b7869a1a2")
 		(property "Reference" "#PWR011"
-			(at 231.14 99.06 0)
+			(at 218.44 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8578,7 +8722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 96.52 0)
+			(at 218.44 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8588,7 +8732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 92.71 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8599,7 +8743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 92.71 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8610,7 +8754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 92.71 0)
+			(at 218.44 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9625,7 +9769,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:VBAT")
-		(at 234.95 86.36 0)
+		(at 218.44 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9636,7 +9780,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ab519c7-9cba-4950-8792-8124e29766b7")
 		(property "Reference" "#VBAT03"
-			(at 234.95 90.17 0)
+			(at 218.44 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +9791,7 @@
 			)
 		)
 		(property "Value" "+3.3v"
-			(at 234.95 81.28 0)
+			(at 218.44 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9657,7 +9801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 86.36 0)
+			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +9812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 86.36 0)
+			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +9823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBAT\""
-			(at 234.95 86.36 0)
+			(at 218.44 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12759,17 +12903,17 @@
 	)
 	(symbol
 		(lib_id "oresat-passives:R-US")
-		(at 214.63 83.82 180)
+		(at 222.25 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ea0547ae-dc05-4f7d-bf68-34fb10764533")
 		(property "Reference" "R17"
-			(at 212.598 80.264 0)
+			(at 218.694 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12779,7 +12923,7 @@
 			)
 		)
 		(property "Value" "121"
-			(at 216.916 80.264 0)
+			(at 218.694 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12789,7 +12933,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12800,7 +12944,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12811,7 +12955,7 @@
 			)
 		)
 		(property "Description" "121 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,7 +12966,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +12977,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT121RCT-ND"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12844,7 +12988,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12855,7 +12999,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12866,7 +13010,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 214.63 83.82 0)
+			(at 222.25 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13164,7 +13308,7 @@
 	)
 	(symbol
 		(lib_id "oresat-passives:R-US")
-		(at 215.9 90.17 180)
+		(at 214.63 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13174,7 +13318,7 @@
 		(dnp no)
 		(uuid "f0cea0e4-758c-4110-b41b-4f5ee3de3529")
 		(property "Reference" "R16"
-			(at 213.868 86.614 0)
+			(at 211.074 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13184,7 +13328,7 @@
 			)
 		)
 		(property "Value" "121"
-			(at 218.186 86.614 0)
+			(at 211.074 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13194,7 +13338,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13205,7 +13349,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13216,7 +13360,7 @@
 			)
 		)
 		(property "Description" "121 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13227,7 +13371,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13238,7 +13382,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT121RCT-ND"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13249,7 +13393,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13260,7 +13404,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13271,7 +13415,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 215.9 90.17 0)
+			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13643,7 +13787,7 @@
 	)
 	(symbol
 		(lib_id "oresat-passives:R-US")
-		(at 215.9 71.12 180)
+		(at 222.25 69.85 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13653,7 +13797,7 @@
 		(dnp no)
 		(uuid "fdfbfbcb-00bc-4aa8-a316-fb1386a42818")
 		(property "Reference" "R19"
-			(at 213.868 67.564 0)
+			(at 218.694 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13663,7 +13807,7 @@
 			)
 		)
 		(property "Value" "121"
-			(at 218.186 67.564 0)
+			(at 218.694 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13673,7 +13817,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13684,7 +13828,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13695,7 +13839,7 @@
 			)
 		)
 		(property "Description" "121 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,7 +13850,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13717,7 +13861,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT121RCT-ND"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13728,7 +13872,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13739,7 +13883,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13750,7 +13894,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 215.9 71.12 0)
+			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
