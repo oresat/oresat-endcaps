@@ -3953,9 +3953,9 @@
 		)
 		(uuid "20caec19-055f-4cc5-8b75-120b28f023a4")
 	)
-	(text "Address: 00"
+	(text "Address bits: 00"
 		(exclude_from_sim no)
-		(at 239.268 188.214 0)
+		(at 236.474 188.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4005,7 +4005,7 @@
 		)
 		(uuid "3d57bc1a-974d-4d7d-b6a2-34e885c284fd")
 	)
-	(text "Address: 01"
+	(text "Address: 0x21"
 		(exclude_from_sim no)
 		(at 288.798 64.77 0)
 		(effects
@@ -4057,7 +4057,7 @@
 		)
 		(uuid "6f045218-99f0-4a47-9438-0e9f53aa6209")
 	)
-	(text "Address: 00"
+	(text "Address: 0x20"
 		(exclude_from_sim no)
 		(at 290.322 158.496 0)
 		(effects
@@ -4189,9 +4189,9 @@
 		)
 		(uuid "f5b89f59-bf4c-40e2-adc1-15b3694bbf55")
 	)
-	(text "Address: 01"
+	(text "Address bits: 01"
 		(exclude_from_sim no)
-		(at 238.76 90.17 0)
+		(at 237.236 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
