@@ -6115,17 +6115,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 146.05 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "oresat1-minusZ-end-cap"
 				(path "/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4"
@@ -6233,17 +6222,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT33K0"
-			(at 250.19 115.57 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 250.19 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -6370,17 +6348,6 @@
 			)
 		)
 		(property "MPN" "GRT21BC71E106KE13K"
-			(at 214.63 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 214.63 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6826,17 +6793,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 176.53 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e7b878cf-d7b9-40c0-9f31-668ba66945d1")
 		)
@@ -6950,17 +6906,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7097,17 +7042,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 152.4 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "50a0c824-29ba-40ec-b1fd-d03be113673b")
 		)
@@ -7218,17 +7152,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 176.53 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 176.53 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -7354,17 +7277,6 @@
 			)
 		)
 		(property "DIS" ""
-			(at 182.88 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 182.88 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7651,17 +7563,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 264.16 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d503fe0a-4f0f-4265-93c2-72203d3f1da9")
 		)
@@ -7734,17 +7635,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 166.37 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 166.37 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -7865,17 +7755,6 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 135.89 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 135.89 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8032,17 +7911,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8213,17 +8081,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 146.05 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "oresat1-minusZ-end-cap"
 				(path "/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4"
@@ -8334,17 +8191,6 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 222.25 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 222.25 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8478,17 +8324,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 264.16 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "49fdbe41-b944-440b-a922-b355507cb246")
 		)
@@ -8602,17 +8437,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8749,17 +8573,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 142.24 168.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ce07d847-bf51-45b0-a0f9-734b342cf3de")
 		)
@@ -8874,17 +8687,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 204.47 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 204.47 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9209,17 +9011,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 166.37 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "oresat1-minusZ-end-cap"
 				(path "/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4"
@@ -9253,7 +9044,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SEN2-Z (z-axis)"
+		(property "Value" "RM3100-Z"
 			(at 276.86 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,7 +9077,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "RM3100 Sensor Suite Z sensor coil"
 			(at 275.59 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9297,7 +9088,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 275.59 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9308,7 +9099,29 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "DPN" "N/A"
+			(at 275.59 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PNI Sensors"
+			(at 275.59 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13101"
 			(at 275.59 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -9677,17 +9490,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 170.18 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2ec03121-b6b9-4d83-8700-c9d9931a2e26")
 		)
@@ -9890,17 +9692,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 182.88 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4ad1d1d9-8239-4091-9631-2f2c893bb9b5")
 		)
@@ -10011,17 +9802,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10155,17 +9935,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 264.16 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6a482f20-0ae8-410a-89cd-c515575f6837")
 		)
@@ -10283,7 +10052,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SEN2-XY (y-axis)"
+		(property "Value" "RM3100-XY"
 			(at 276.86 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10316,7 +10085,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "RM3100 Sensor Suite XY sensor coil"
 			(at 275.59 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10327,7 +10096,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 275.59 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10338,7 +10107,29 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "DPN" "N/A"
+			(at 275.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PNI Sensors"
+			(at 275.59 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13104"
 			(at 275.59 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10550,17 +10341,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 264.16 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cca50364-62d4-44c6-ae8d-d0e006cee8bd")
 		)
@@ -10698,17 +10478,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 142.24 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "58f791e8-9cd2-4a46-a01d-f0412364f860")
 		)
@@ -10748,7 +10517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SEN1-XY (y-axis)"
+		(property "Value" "RM3100-XY"
 			(at 276.86 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10781,7 +10550,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "RM3100 Sensor Suite XY sensor coil"
 			(at 275.59 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10792,7 +10561,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 275.59 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10803,7 +10572,29 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "DPN" "N/A"
+			(at 275.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PNI Sensors"
+			(at 275.59 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13104"
 			(at 275.59 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10937,17 +10728,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 198.12 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "60d13cb1-fabd-45a0-b858-83c462279458")
 		)
@@ -11061,17 +10841,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 170.18 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 170.18 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11207,17 +10976,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 163.83 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b2cea3ce-3fb5-451f-8398-08dbb34d0701")
 		)
@@ -11287,17 +11045,6 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 166.37 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 166.37 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -11415,17 +11162,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11559,17 +11295,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 198.12 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "15d27602-52ce-41b6-9970-0be5a3a51006")
 		)
@@ -11640,7 +11365,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RM3100 Sensor Suite ASIC"
 			(at 222.25 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11651,7 +11376,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 222.25 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11662,7 +11387,7 @@
 				)
 			)
 		)
-		(property "DPN" "RM3100"
+		(property "DPN" "N/A"
 			(at 222.25 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11673,7 +11398,18 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "MFR" "PNI Sensors"
+			(at 222.25 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13156"
 			(at 222.25 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11891,17 +11627,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 214.63 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "04c8eb09-f1cd-40bc-ac9e-0c0b926b902c")
 		)
@@ -12106,17 +11831,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 231.14 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e6303f7a-ddaf-4b5e-87a8-5381253fe61a")
 		)
@@ -12242,17 +11956,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 171.45 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dad46857-ebf9-4a3b-a430-b3217ffba067")
 		)
@@ -12366,17 +12069,6 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
-			(at 223.52 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 223.52 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12579,7 +12271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SEN1-XY (x-axis)"
+		(property "Value" "RM3100-XY"
 			(at 276.86 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12612,7 +12304,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "RM3100 Sensor Suite XY sensor coil"
 			(at 275.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12623,7 +12315,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 275.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12634,7 +12326,29 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "DPN" "N/A"
+			(at 275.59 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PNI Sensors"
+			(at 275.59 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13104"
 			(at 275.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12758,17 +12472,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13160,7 +12863,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RM3100 Sensor Suite ASIC"
 			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13171,7 +12874,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13182,7 +12885,7 @@
 				)
 			)
 		)
-		(property "DPN" "RM3100"
+		(property "DPN" "N/A"
 			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13193,7 +12896,18 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "MFR" "PNI Sensors"
+			(at 222.25 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13156"
 			(at 222.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13408,17 +13122,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 204.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c01cc751-be48-4409-815b-dc51cdefe56b")
 		)
@@ -13456,7 +13159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SEN2-XY (x-axis)"
+		(property "Value" "RM3100-XY"
 			(at 276.86 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13489,7 +13192,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "RM3100 Sensor Suite XY sensor coil"
 			(at 275.59 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13500,7 +13203,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 275.59 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13511,7 +13214,29 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "DPN" "N/A"
+			(at 275.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PNI Sensors"
+			(at 275.59 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13104"
 			(at 275.59 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13726,17 +13451,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 232.41 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "57a84229-db59-4f1a-8aff-904ee3542cfe")
 		)
@@ -13853,17 +13567,6 @@
 			)
 		)
 		(property "MPN" "GRT21BC71E106KE13K"
-			(at 171.45 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 171.45 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14077,17 +13780,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 142.24 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "227edc70-f120-442b-8aa4-1a8cfd7ed6ec")
 		)
@@ -14248,17 +13940,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 146.05 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "oresat1-minusZ-end-cap"
 				(path "/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4"
@@ -14376,17 +14057,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 250.19 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0e8038f8-7dbf-452a-b27e-1001448fdc16")
 		)
@@ -14426,7 +14096,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SEN1-Z (z-axis)"
+		(property "Value" "RM3100-Z"
 			(at 276.86 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14459,7 +14129,7 @@
 				)
 			)
 		)
-		(property "Description" "Z axis sensor"
+		(property "Description" "RM3100 Sensor Suite Z sensor coil"
 			(at 275.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14470,7 +14140,7 @@
 				)
 			)
 		)
-		(property "DIS" "PNI"
+		(property "DIS" "N/A"
 			(at 275.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14481,7 +14151,29 @@
 				)
 			)
 		)
-		(property "DST" ""
+		(property "DPN" "N/A"
+			(at 275.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "PNI Sensors"
+			(at 275.59 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PN13101"
 			(at 275.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14615,17 +14307,6 @@
 				)
 			)
 		)
-		(property "DST" ""
-			(at 264.16 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "505f2b52-ebc2-4176-b3e7-8e7b0e78eed8")
 		)
@@ -14739,17 +14420,6 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT121R"
-			(at 264.16 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DST" ""
 			(at 264.16 182.88 0)
 			(hide yes)
 			(show_name no)
