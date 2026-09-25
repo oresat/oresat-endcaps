@@ -18,7 +18,7 @@ urlcolor: blue
 
 ## Board Description
 
-The OreSat1 +Z End Cap is the board that "caps" the +Z end of the OreSat1 satellite. It protects the +Z End Card and also carries two RMI3000 magnetometers, as far away from the internal OreSat magnetic noise as possible. 
+The OreSat1 +Z End Cap is the board that "caps" the +Z end of the OreSat1 satellite. It protects the +Z End Card and also carries two PNI RM3100 magnetometers, as far away from the internal OreSat magnetic noise as possible. 
 
 ## Documentation Links
 

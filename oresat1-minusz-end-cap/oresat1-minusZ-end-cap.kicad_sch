@@ -3643,7 +3643,7 @@
 		)
 		(uuid "37037333-e36c-490e-929d-91623a67660a")
 	)
-	(text "Address: 10"
+	(text "I2C Address: 0x22"
 		(exclude_from_sim no)
 		(at 276.352 150.876 0)
 		(effects
@@ -3663,9 +3663,9 @@
 		)
 		(uuid "48a6b136-e568-401e-bbfa-7b275412d05e")
 	)
-	(text "Address: 10"
+	(text "Address bits: 10"
 		(exclude_from_sim no)
-		(at 226.06 180.594 0)
+		(at 222.504 180.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3756,9 +3756,9 @@
 		)
 		(uuid "a90629eb-9583-40a7-b5c8-1d43fb5d25c7")
 	)
-	(text "Address: 11"
+	(text "Address bits: 11"
 		(exclude_from_sim no)
-		(at 217.17 82.55 0)
+		(at 221.742 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,7 +3788,7 @@
 		)
 		(uuid "d2c75f83-2719-44e1-99f7-c37da191fc18")
 	)
-	(text "Address: 11"
+	(text "I2C Address: 0x23"
 		(exclude_from_sim no)
 		(at 275.082 57.15 0)
 		(effects

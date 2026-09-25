@@ -4005,7 +4005,7 @@
 		)
 		(uuid "3d57bc1a-974d-4d7d-b6a2-34e885c284fd")
 	)
-	(text "Address: 0x21"
+	(text "I2C Address: 0x21"
 		(exclude_from_sim no)
 		(at 288.798 64.77 0)
 		(effects
@@ -4057,7 +4057,7 @@
 		)
 		(uuid "6f045218-99f0-4a47-9438-0e9f53aa6209")
 	)
-	(text "Address: 0x20"
+	(text "I2C Address: 0x20"
 		(exclude_from_sim no)
 		(at 290.322 158.496 0)
 		(effects

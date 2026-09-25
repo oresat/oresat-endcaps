@@ -6465,7 +6465,7 @@
 			(uuid "2ce8c613-18c8-4300-a389-4bc264ecab7f")
 		)
 		(fp_text user "2"
-			(at -2.94 4.1 90)
+			(at 3.52 4.1 90)
 			(layer "B.SilkS")
 			(uuid "bf37e094-08e9-4725-b6ab-ae6a9500bb9c")
 			(effects
@@ -6477,7 +6477,7 @@
 			)
 		)
 		(fp_text user "12"
-			(at 3.64 4.1 90)
+			(at -2.68 4.07 90)
 			(layer "B.SilkS")
 			(uuid "e20bee9b-e737-4792-8a00-b3f5ace773a9")
 			(effects
@@ -6489,7 +6489,7 @@
 			)
 		)
 		(fp_text user "1"
-			(at -2.94 -3.5 90)
+			(at 4.72 -0.98 90)
 			(layer "B.SilkS")
 			(uuid "abf81556-4918-4efc-ac80-1ee3f6d3ff92")
 			(effects
@@ -6501,7 +6501,7 @@
 			)
 		)
 		(fp_text user "11"
-			(at 3.74 -3.5 90)
+			(at -2.63 -3.53 90)
 			(layer "B.SilkS")
 			(uuid "d25c5332-553f-491b-ba44-98d01ac4ecc7")
 			(effects
