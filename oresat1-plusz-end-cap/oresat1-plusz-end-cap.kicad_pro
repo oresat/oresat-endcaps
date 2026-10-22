@@ -97,14 +97,6 @@
         [
           "items_not_allowed|109246904|79705000|9268b358-1340-43a8-b48a-29ede26bf513|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "lib_footprint_mismatch|191900000|78570000|00bb3e8d-0d4f-411b-8c77-8160cef53efe|00000000-0000-0000-0000-000000000000",
-          "KEEP THIS EXCLUSION - Removed inner layer keepouts, which were dumb."
-        ],
-        [
-          "text_thickness|149150000|148675000|10ecd2d3-75ac-4631-a288-cd29f85422a9|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -212,6 +204,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -223,6 +216,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -234,6 +228,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -348,7 +343,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "same_local_global_label|2451100|1562100|024d9f0b-f429-4c57-ba8b-1e74006c4176|50de90c1-96ca-4d90-93b7-511cb04abd35|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a|/316ea762-02e5-480d-97d9-1517b3f5ca2a",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -559,6 +559,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -642,8 +643,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "RF-50-max",
@@ -1022,7 +1023,7 @@
         "uuid": "316ea762-02e5-480d-97d9-1517b3f5ca2a"
       }
     ],
-    "used_designators": "#VBAT6,#PWR15,R16-23",
+    "used_designators": "#PWR15,#VBAT6,R16-23",
     "variants": []
   },
   "sheets": [
