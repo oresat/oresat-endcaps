@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -289,7 +292,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "same_local_global_label|2311400|1485900|024d9f0b-f429-4c57-ba8b-1e74006c4176|003d2968-b5b5-4e93-b771-4f41406b07ca|/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4|/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4|/a215d645-9bfd-4c32-85ab-cbfb5aea6fd4",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -499,6 +507,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -582,8 +591,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "RF-50-max",
@@ -773,7 +782,7 @@
         "uuid": "a215d645-9bfd-4c32-85ab-cbfb5aea6fd4"
       }
     ],
-    "used_designators": "FID101-106,#FLG1-3,R16-23,#PWR15-16,#VBAT6-7",
+    "used_designators": "#FLG1-3,#PWR15-16,#VBAT6-7,FID101-106,R16-23",
     "variants": []
   },
   "sheets": [
